@@ -1,7 +1,13 @@
 translate-json
 =====
 
+# Install
+
+    npm i -g json-translate
+
 # Usage
+
+    translate-json -l [language-code] -t [google|yandex] [input]
 
     --language, --lang, -l :: The language to convert the document to. e.g. ru, ar, fr, etc.
     --translator, -t :: The translation servie to use. "google", or "yandax".
