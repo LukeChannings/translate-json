@@ -7,6 +7,7 @@
     "--exclude, --e :: Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'",
     "--input, -i, [last parameter] :: The JSON document to translate. ",
     "--output, -o :: Destination to write the translated JSON document.",
+    "--dryRun, --dry, -d :: Do not actually translate any values, prefix strings with 'zz_' to mark them.",
     "--help, -h :: This help message"
   ],
   "errors": {

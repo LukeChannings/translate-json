@@ -18,7 +18,7 @@ try {
   console.error([error, '\n', ...cli.usage].join('\n'))
 }
 
-async function main ({help, srcPath, destPath, api, apiKey, language, exclude, verbose}) {
+async function main ({dry, help, srcPath, destPath, api, apiKey, language, exclude, verbose}) {
   if (help) {
     console.log(cli.usage.join('\n'))
     return process.exit(0)
@@ -27,7 +27,7 @@ async function main ({help, srcPath, destPath, api, apiKey, language, exclude, v
   const doc = require(path.resolve(process.cwd(), srcPath))
 
   const transform =
-    api
+    api && !dry
       ? transformers[api]
       : transformers.dryRun
 
