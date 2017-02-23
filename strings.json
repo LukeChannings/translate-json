@@ -10,6 +10,7 @@
     "--dryRun, --dry, -d :: Do not actually translate any values, prefix strings with 'zz_' to mark them.",
     "--translator, -t :: The translation service to use. google, or yandex. (Default is google)",
     "--apiKey, --key, -k :: The API key to be used with the translation service. (Not needed for google.)",
+    "--preserveHtmlEntities, --preserve, -p :: Preserve HTML entities in translated text. (Off by default.)",
     "--help, -h :: This help message",
     "--version, -v :: The program versionn"
   ],

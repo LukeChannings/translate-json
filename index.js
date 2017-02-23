@@ -29,7 +29,7 @@ async function main (opts) {
       ? transformers[opts.api]
       : transformers.dryRun
 
-  const tr = transform(opts.apiKey, opts.language)
+  const tr = transform(opts.apiKey, opts.language, opts.preserveHtmlEntities)
 
   const test = ({cursor, path}) =>
     typeof cursor === 'string' &&
@@ -37,10 +37,7 @@ async function main (opts) {
       ? !(new RegExp(opts.exclude, 'i')).test(path)
       : true)
 
-  const transforms = [
-    {test, transform: tr}
-  ]
-
+  const transforms = [{test, transform: tr}]
   const translatedDoc = await translateDeep({doc, transforms, options: opts})
   const serializedDoc = JSON.stringify(translatedDoc, null, 2).replace(/\n/g, os.EOL)
 
