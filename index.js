@@ -24,16 +24,23 @@ try {
       : transformers.dryRun
 
   const tr = transform(options.apiKey, options.language)
-  const test = (a) =>
-    typeof a === 'string' &&
-    (argv.excludeProperties
-      ? !(new RegExp(argv.excludeProperties, 'i')).test(a)
+  const test = ({cursor, path}) =>
+    typeof cursor === 'string' &&
+    (options.exclude
+      ? !(new RegExp(options.exclude, 'i')).test(path)
       : true)
 
   translateDeep({
     doc,
     transforms: [ { test, transform: tr } ]
-  }).then((translatedDoc) => console.log(JSON.stringify(translatedDoc, null, 2)))
+  }).then((translatedDoc) => {
+    const serializedDoc = JSON.stringify(translatedDoc, null, 2)
+    if (options.output) {
+      fs.writeFileSync(options.output, serializedDoc)
+    } else {
+      console.log(serializedDoc)
+    }
+  })
 } catch (error) {
   console.error(`Bad parameters. ${error}\n\n`)
   console.log(cli.usage)
