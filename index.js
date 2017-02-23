@@ -1,5 +1,6 @@
 #!/usr/bin/env node --harmony-async-await
 
+const os = require('os')
 const path = require('path')
 const fs = require('fs')
 const {format} = require('util')
@@ -15,12 +16,12 @@ try {
   main(cli.getOptions(argv))
     .then(console.log)
 } catch (error) {
-  console.error([error, '\n', ...cli.usage].join('\n'))
+  console.error([error, os.EOL, ...cli.usage].join(os.EOL))
 }
 
 async function main (opts) {
   if (opts.help) {
-    console.log(cli.usage.join('\n'))
+    console.log(cli.usage.join(os.EOL))
     return process.exit(0)
   }
 
@@ -44,7 +45,7 @@ async function main (opts) {
   ]
 
   const translatedDoc = await translateDeep({doc, transforms, options: opts})
-  const serializedDoc = JSON.stringify(translatedDoc, null, 2)
+  const serializedDoc = JSON.stringify(translatedDoc, null, 2).replace(/\n/g, os.EOL)
 
   if (opts.destPath) {
     fs.writeFileSync(path.resolve(process.cwd(), opts.destPath), serializedDoc)
