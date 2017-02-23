@@ -1,11 +1,11 @@
 translate-json
 =====
 
-# Install
+## Install
 
     npm i -g json-translate
 
-# Usage
+## Usage
 
     Usage: translate-json -l [language-code] -t [google|yandex] [input]
 
@@ -16,3 +16,11 @@ translate-json
     --input, -i, [last parameter] :: The JSON document to translate.
     --output, -o :: Destination to write the translated JSON document.
     --help, -h :: This help message
+
+**Note**: Google is the default translator, and an API key is not needed for it.
+
+## Examples
+
+| `translate-json -l fr ./labels-en.json > labels-fr.json`
+
+| `translate-json -l ru ./labels-en.json > labels-fr.json`

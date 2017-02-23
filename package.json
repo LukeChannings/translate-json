@@ -1,6 +1,6 @@
 {
   "name": "translate-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool to translate strings in a JSON document.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,9 @@
     "standard": "^8.6.0"
   },
   "dependencies": {
+    "bluebird": "^3.4.7",
     "google-translate-api": "^2.2.2",
+    "html-entities": "^1.2.0",
     "minimist": "^1.2.0",
     "yandex-translate": "^2.1.1"
   }

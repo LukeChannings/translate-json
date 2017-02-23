@@ -1,0 +1,23 @@
+{
+  "usage": [
+    "Usage: translate-json -l [language-code] -t [google|yandex] [input]\n",
+    "--language, --lang, -l :: The language to convert the document to. e.g. ru, ar, fr, etc.",
+    "--translator, -t :: The translation servie to use. google, or yandex.",
+    "--apiKey, --key, -k :: The API key to be used with the translation service.",
+    "--exclude, --e :: Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'",
+    "--input, -i, [last parameter] :: The JSON document to translate. ",
+    "--output, -o :: Destination to write the translated JSON document.",
+    "--help, -h :: This help message"
+  ],
+  "errors": {
+    "REQUIRED_PARAM_LANG": "Failed to specify a language to translate to. (-l)",
+    "REQUIRED_PARAM_INPUT": "Failed to specify an input file.",
+    "REQUIRED_PARAM_API_KEY_WITH_YANDEX": "You specified Yandex as a translator, but did not specify an API key.",
+    "INVALID_TRANSLATOR": "The translation API you specified is not valid. Please use 'google' (default), or 'yandex'."
+  },
+  "messages": {
+    "SUCCESS": "Successfully wrote translated file to %s.",
+    "TRANSLATING": "Fetching translations for %s fields.",
+    "DUPLICATE_COUNT": "Optimising... found %d duplicate values to translate."
+  }
+}
