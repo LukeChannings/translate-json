@@ -3,7 +3,7 @@ translate-json
 
 ## Install
 
-    npm i -g json-translate
+    npm i -g translate-json
 
 ## Usage
 
