@@ -1,0 +1,4129 @@
+{
+  "websiteGroup": "ekweb",
+  "title": "Emirates",
+  "origins": {
+    "global": true,
+    "local": true,
+    "items": [
+      {
+        "id": "mumbai",
+        "airport-city": "Mumbai",
+        "airport-country": "India",
+        "airport-name": "Chhatrapati Shivaji Int. Airport",
+        "airport-acronym": "BOM",
+        "searchTerms": [
+          "Chhatrapati Shivaji Int. Airport",
+          "BOM",
+          "India",
+          "Mumbai"
+        ],
+        "type": {
+          "local": true
+        }
+      },
+      {
+        "id": "ahmedabad",
+        "airport-city": "Ahmedabad",
+        "airport-country": "India",
+        "airport-name": "Ahmedabad int airport",
+        "airport-acronym": "AHM",
+        "searchTerms": [
+          "Ahmbedad Airport",
+          "AHM",
+          "India",
+          "Ahmedabad"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "bengaluru",
+        "airport-city": "Bengaluru",
+        "airport-country": "India",
+        "airport-name": "Bengaluru Int Airport",
+        "airport-acronym": "BNG",
+        "searchTerms": [
+          "Bengaluru Airport",
+          "BNG",
+          "India",
+          "Bengaluru"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "chennai",
+        "airport-city": "Chennai",
+        "airport-country": "India",
+        "airport-name": "Chennai Airport",
+        "airport-acronym": "CHN",
+        "searchTerms": [
+          "Chennai Airport",
+          "CHN",
+          "Chennai"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "delhi",
+        "airport-city": "Delhi",
+        "airport-country": "India",
+        "airport-name": "Delhi int airport",
+        "airport-acronym": "DEL",
+        "searchTerms": [
+          "Delhi int airport",
+          "DEL",
+          "India",
+          "Delhi"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "hyderabad",
+        "airport-city": "Hyderabad",
+        "airport-country": "India",
+        "airport-name": "Hyderabad Airport",
+        "airport-acronym": "HDB",
+        "searchTerms": [
+          "Hyderabad Airport",
+          "HDB",
+          "India",
+          "Hyderabad"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "kochi",
+        "airport-city": "Kochi",
+        "airport-country": "India",
+        "airport-name": "Kochi Airport",
+        "airport-acronym": "KOC",
+        "searchTerms": [
+          "Kochi Airport",
+          "KOC",
+          "India",
+          "Kochi"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "kolkota",
+        "airport-city": "Kolkota",
+        "airport-country": "India",
+        "airport-name": "Kolkota Int. Airport",
+        "airport-acronym": "KOL",
+        "searchTerms": [
+          "Kolkota Int. Airport",
+          "KOL",
+          "India",
+          "Kolkota"
+        ],
+        "type": {
+          "global": true
+        }
+      }
+    ]
+  },
+  "destinations": {
+    "global": true,
+    "local": true,
+    "placeholder": "Going to",
+    "currentLocationHeader": "Current location",
+    "allLocationsHeader": "All locations",
+    "items": [
+      {
+        "id": "mumbai",
+        "airport-city": "Mumbai",
+        "airport-country": "India",
+        "airport-name": "Chhatrapati Shivaji Int. Airport",
+        "airport-acronym": "BOM",
+        "searchTerms": [
+          "Chhatrapati Shivaji Int. Airport",
+          "BOM",
+          "India",
+          "Mumbai"
+        ],
+        "type": {
+          "local": true
+        }
+      },
+      {
+        "id": "ahmedabad",
+        "airport-city": "Ahmedabad",
+        "airport-country": "India",
+        "airport-name": "Ahmedabad int airport",
+        "airport-acronym": "AHM",
+        "searchTerms": [
+          "Ahmbedad Airport",
+          "AHM",
+          "India",
+          "Ahmedabad"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "bengaluru",
+        "airport-city": "Bengaluru",
+        "airport-country": "India",
+        "airport-name": "Bengaluru Int Airport",
+        "airport-acronym": "BNG",
+        "searchTerms": [
+          "Bengaluru Airport",
+          "BNG",
+          "India",
+          "Bengaluru"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "chennai",
+        "airport-city": "Chennai",
+        "airport-country": "India",
+        "airport-name": "Chennai Airport",
+        "airport-acronym": "CHN",
+        "searchTerms": [
+          "Chennai Airport",
+          "CHN",
+          "Chennai"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "delhi",
+        "airport-city": "Delhi",
+        "airport-country": "India",
+        "airport-name": "Delhi int airport",
+        "airport-acronym": "DEL",
+        "searchTerms": [
+          "Delhi int airport",
+          "DEL",
+          "India",
+          "Delhi"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "hyderabad",
+        "airport-city": "Hyderabad",
+        "airport-country": "India",
+        "airport-name": "Hyderabad Airport",
+        "airport-acronym": "HDB",
+        "searchTerms": [
+          "Hyderabad Airport",
+          "HDB",
+          "India",
+          "Hyderabad"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "kochi",
+        "airport-city": "Kochi",
+        "airport-country": "India",
+        "airport-name": "Kochi Airport",
+        "airport-acronym": "KOC",
+        "searchTerms": [
+          "Kochi Airport",
+          "KOC",
+          "India",
+          "Kochi"
+        ],
+        "type": {
+          "global": true
+        }
+      },
+      {
+        "id": "kolkota",
+        "airport-city": "Kolkota",
+        "airport-country": "India",
+        "airport-name": "Kolkota Int. Airport",
+        "airport-acronym": "KOL",
+        "searchTerms": [
+          "Kolkota Int. Airport",
+          "KOL",
+          "India",
+          "Kolkota"
+        ],
+        "type": {
+          "global": true
+        }
+      }
+    ]
+  },
+  "includes": {
+    "navigation": {
+      "content": {
+        "navigationItem": [
+          {
+            "name": "Book",
+            "nestedDropdownItems": [
+              {
+                "name": "Plan and book",
+                "twoColumn": true,
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              },
+              {
+                "name": "Flight schedules",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              },
+              {
+                "name": "Special offers",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Manage",
+            "nestedDropdownItems": [
+              {
+                "name": "nestedDropdownName5",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              },
+              {
+                "name": "nestedDropdownName6",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              },
+              {
+                "name": "nestedDropdownName7",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              },
+              {
+                "name": "nestedDropdownName8",
+                "nestedDropdownItems": [
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  },
+                  {
+                    "name": "Plan and book"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Experience",
+            "nestedDropdownItems": [
+              {
+                "name": "nestedDropdownName9"
+              },
+              {
+                "name": "nestedDropdownName10"
+              },
+              {
+                "name": "nestedDropdownName11"
+              },
+              {
+                "name": "nestedDropdownName12"
+              }
+            ]
+          },
+          {
+            "name": "Destinations",
+            "nestedDropdownItems": [
+              {
+                "name": "nestedDropdownName13"
+              },
+              {
+                "name": "nestedDropdownName14"
+              },
+              {
+                "name": "nestedDropdownName15"
+              },
+              {
+                "name": "nestedDropdownName16"
+              }
+            ]
+          },
+          {
+            "name": "Loyalty",
+            "nestedDropdownItems": [
+              {
+                "name": "nestedDropdownName17"
+              },
+              {
+                "name": "nestedDropdownName18"
+              },
+              {
+                "name": "nestedDropdownName19"
+              },
+              {
+                "name": "nestedDropdownName20"
+              }
+            ]
+          },
+          {
+            "name": "Help",
+            "nestedDropdownItems": [
+              {
+                "name": "nestedDropdownName21"
+              },
+              {
+                "name": "nestedDropdownName22"
+              },
+              {
+                "name": "nestedDropdownName23"
+              },
+              {
+                "name": "nestedDropdownName24"
+              }
+            ]
+          }
+        ],
+        "toolbar": {
+          "language": {
+            "selectedCountry": {
+              "name": "United Kingdom",
+              "alpha-2": "GB",
+              "country-code": "826",
+              "arabicName": "المملكة المتحدة",
+              "supportedLanguages": [
+                {
+                  "name": "English",
+                  "code": "en",
+                  "primary": true
+                },
+                {
+                  "name": "الإنجليزية",
+                  "code": "ar"
+                }
+              ]
+            },
+            "countries": [
+              {
+                "name": "Afghanistan",
+                "alpha-2": "AF",
+                "country-code": "004",
+                "arabicName": "أفغانستان",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "الإنجليزية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Åland Islands",
+                "alpha-2": "AX",
+                "country-code": "248",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "الإنجليزية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Albania",
+                "alpha-2": "AL",
+                "country-code": "008",
+                "arabicName": "ألبانيا",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "الإنجليزية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Algeria",
+                "alpha-2": "DZ",
+                "country-code": "012",
+                "arabicName": "الجزائر",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "الإنجليزية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "American Samoa",
+                "alpha-2": "AS",
+                "country-code": "016",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Andorra",
+                "alpha-2": "AD",
+                "country-code": "020",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Angola",
+                "alpha-2": "AO",
+                "country-code": "024",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Anguilla",
+                "alpha-2": "AI",
+                "country-code": "660",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Antigua and Barbuda",
+                "alpha-2": "AG",
+                "country-code": "028",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Argentina",
+                "alpha-2": "AR",
+                "country-code": "032",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Armenia",
+                "alpha-2": "AM",
+                "country-code": "051",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Aruba",
+                "alpha-2": "AW",
+                "country-code": "533",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Australia",
+                "alpha-2": "AU",
+                "country-code": "036",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Austria",
+                "alpha-2": "AT",
+                "country-code": "040",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Azerbaijan",
+                "alpha-2": "AZ",
+                "country-code": "031",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bahamas",
+                "alpha-2": "BS",
+                "country-code": "044",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bahrain",
+                "alpha-2": "BH",
+                "country-code": "048",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bangladesh",
+                "alpha-2": "BD",
+                "country-code": "050",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Barbados",
+                "alpha-2": "BB",
+                "country-code": "052",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Belarus",
+                "alpha-2": "BY",
+                "country-code": "112",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Belgium",
+                "alpha-2": "BE",
+                "country-code": "056",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Belize",
+                "alpha-2": "BZ",
+                "country-code": "084",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Benin",
+                "alpha-2": "BJ",
+                "country-code": "204",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bermuda",
+                "alpha-2": "BM",
+                "country-code": "060",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bhutan",
+                "alpha-2": "BT",
+                "country-code": "064",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bolivia (Plurinational State of)",
+                "alpha-2": "BO",
+                "country-code": "068",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bosnia and Herzegovina",
+                "alpha-2": "BA",
+                "country-code": "070",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Botswana",
+                "alpha-2": "BW",
+                "country-code": "072",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bouvet Island",
+                "alpha-2": "BV",
+                "country-code": "074",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Brazil",
+                "alpha-2": "BR",
+                "country-code": "076",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "British Indian Ocean Territory",
+                "alpha-2": "IO",
+                "country-code": "086",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Brunei Darussalam",
+                "alpha-2": "BN",
+                "country-code": "096",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Bulgaria",
+                "alpha-2": "BG",
+                "country-code": "100",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Burkina Faso",
+                "alpha-2": "BF",
+                "country-code": "854",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Burundi",
+                "alpha-2": "BI",
+                "country-code": "108",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cambodia",
+                "alpha-2": "KH",
+                "country-code": "116",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cameroon",
+                "alpha-2": "CM",
+                "country-code": "120",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Canada",
+                "alpha-2": "CA",
+                "country-code": "124",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cabo Verde",
+                "alpha-2": "CV",
+                "country-code": "132",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cayman Islands",
+                "alpha-2": "KY",
+                "country-code": "136",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Central African Republic",
+                "alpha-2": "CF",
+                "country-code": "140",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Chad",
+                "alpha-2": "TD",
+                "country-code": "148",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Chile",
+                "alpha-2": "CL",
+                "country-code": "152",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "China",
+                "alpha-2": "CN",
+                "country-code": "156",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Christmas Island",
+                "alpha-2": "CX",
+                "country-code": "162",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cocos (Keeling) Islands",
+                "alpha-2": "CC",
+                "country-code": "166",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Colombia",
+                "alpha-2": "CO",
+                "country-code": "170",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Comoros",
+                "alpha-2": "KM",
+                "country-code": "174",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Congo",
+                "alpha-2": "CG",
+                "country-code": "178",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Congo (Democratic Republic of the)",
+                "alpha-2": "CD",
+                "country-code": "180",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cook Islands",
+                "alpha-2": "CK",
+                "country-code": "184",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Costa Rica",
+                "alpha-2": "CR",
+                "country-code": "188",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Côte d'Ivoire",
+                "alpha-2": "CI",
+                "country-code": "384",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Croatia",
+                "alpha-2": "HR",
+                "country-code": "191",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cuba",
+                "alpha-2": "CU",
+                "country-code": "192",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Curaçao",
+                "alpha-2": "CW",
+                "country-code": "531",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Cyprus",
+                "alpha-2": "CY",
+                "country-code": "196",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Czech Republic",
+                "alpha-2": "CZ",
+                "country-code": "203",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Denmark",
+                "alpha-2": "DK",
+                "country-code": "208",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Djibouti",
+                "alpha-2": "DJ",
+                "country-code": "262",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Dominica",
+                "alpha-2": "DM",
+                "country-code": "212",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Dominican Republic",
+                "alpha-2": "DO",
+                "country-code": "214",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Ecuador",
+                "alpha-2": "EC",
+                "country-code": "218",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Egypt",
+                "alpha-2": "EG",
+                "country-code": "818",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "El Salvador",
+                "alpha-2": "SV",
+                "country-code": "222",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Equatorial Guinea",
+                "alpha-2": "GQ",
+                "country-code": "226",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Eritrea",
+                "alpha-2": "ER",
+                "country-code": "232",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Estonia",
+                "alpha-2": "EE",
+                "country-code": "233",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Ethiopia",
+                "alpha-2": "ET",
+                "country-code": "231",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Falkland Islands (Malvinas)",
+                "alpha-2": "FK",
+                "country-code": "238",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Faroe Islands",
+                "alpha-2": "FO",
+                "country-code": "234",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Fiji",
+                "alpha-2": "FJ",
+                "country-code": "242",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Finland",
+                "alpha-2": "FI",
+                "country-code": "246"
+              },
+              {
+                "name": "France",
+                "arabicName": "فرنسا",
+                "alpha-2": "FR",
+                "country-code": "250",
+                "supportedLanguages": [
+                  {
+                    "name": "Français",
+                    "code": "fr",
+                    "primary": true
+                  },
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "French Guiana",
+                "alpha-2": "GF",
+                "country-code": "254"
+              },
+              {
+                "name": "French Polynesia",
+                "alpha-2": "PF",
+                "country-code": "258"
+              },
+              {
+                "name": "French Southern Territories",
+                "alpha-2": "TF",
+                "country-code": "260"
+              },
+              {
+                "name": "Gabon",
+                "alpha-2": "GA",
+                "country-code": "266"
+              },
+              {
+                "name": "Gambia",
+                "alpha-2": "GM",
+                "country-code": "270"
+              },
+              {
+                "name": "Georgia",
+                "alpha-2": "GE",
+                "country-code": "268"
+              },
+              {
+                "name": "Germany",
+                "alpha-2": "DE",
+                "country-code": "276"
+              },
+              {
+                "name": "Ghana",
+                "alpha-2": "GH",
+                "country-code": "288"
+              },
+              {
+                "name": "Gibraltar",
+                "alpha-2": "GI",
+                "country-code": "292",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Greece",
+                "alpha-2": "GR",
+                "country-code": "300",
+                "arabicName": "اليونان",
+                "supportedLanguages": [
+                  {
+                    "name": "ελληνικά",
+                    "code": "gr",
+                    "primary": true
+                  },
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "Greenland",
+                "alpha-2": "GL",
+                "country-code": "304"
+              },
+              {
+                "name": "Grenada",
+                "alpha-2": "GD",
+                "country-code": "308"
+              },
+              {
+                "name": "Guadeloupe",
+                "alpha-2": "GP",
+                "country-code": "312"
+              },
+              {
+                "name": "Guam",
+                "alpha-2": "GU",
+                "country-code": "316"
+              },
+              {
+                "name": "Guatemala",
+                "alpha-2": "GT",
+                "country-code": "320"
+              },
+              {
+                "name": "Guernsey",
+                "alpha-2": "GG",
+                "country-code": "831"
+              },
+              {
+                "name": "Guinea",
+                "alpha-2": "GN",
+                "country-code": "324"
+              },
+              {
+                "name": "Guinea-Bissau",
+                "alpha-2": "GW",
+                "country-code": "624"
+              },
+              {
+                "name": "Guyana",
+                "alpha-2": "GY",
+                "country-code": "328"
+              },
+              {
+                "name": "Haiti",
+                "alpha-2": "HT",
+                "country-code": "332"
+              },
+              {
+                "name": "Heard Island and McDonald Islands",
+                "alpha-2": "HM",
+                "country-code": "334"
+              },
+              {
+                "name": "Holy See",
+                "alpha-2": "VA",
+                "country-code": "336"
+              },
+              {
+                "name": "Honduras",
+                "alpha-2": "HN",
+                "country-code": "340"
+              },
+              {
+                "name": "Hong Kong",
+                "alpha-2": "HK",
+                "country-code": "344"
+              },
+              {
+                "name": "Hungary",
+                "alpha-2": "HU",
+                "country-code": "348"
+              },
+              {
+                "name": "Iceland",
+                "alpha-2": "IS",
+                "country-code": "352"
+              },
+              {
+                "name": "India",
+                "alpha-2": "IN",
+                "country-code": "356",
+                "arabicName": "الهند",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "الإنجليزية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Indonesia",
+                "alpha-2": "ID",
+                "country-code": "360"
+              },
+              {
+                "name": "Iran (Islamic Republic of)",
+                "alpha-2": "IR",
+                "country-code": "364"
+              },
+              {
+                "name": "Iraq",
+                "alpha-2": "IQ",
+                "country-code": "368"
+              },
+              {
+                "name": "Ireland",
+                "alpha-2": "IE",
+                "country-code": "372"
+              },
+              {
+                "name": "Isle of Man",
+                "alpha-2": "IM",
+                "country-code": "833"
+              },
+              {
+                "name": "Israel",
+                "alpha-2": "IL",
+                "country-code": "376"
+              },
+              {
+                "name": "Italy",
+                "alpha-2": "IT",
+                "country-code": "380",
+                "arabicName": "إيطاليا",
+                "supportedLanguages": [
+                  {
+                    "name": "Italiano",
+                    "code": "it",
+                    "primary": true
+                  },
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Jamaica",
+                "alpha-2": "JM",
+                "country-code": "388"
+              },
+              {
+                "name": "Japan",
+                "alpha-2": "JP",
+                "country-code": "392"
+              },
+              {
+                "name": "Jersey",
+                "alpha-2": "JE",
+                "country-code": "832"
+              },
+              {
+                "name": "Jordan",
+                "alpha-2": "JO",
+                "country-code": "400"
+              },
+              {
+                "name": "Kazakhstan",
+                "alpha-2": "KZ",
+                "country-code": "398"
+              },
+              {
+                "name": "Kenya",
+                "alpha-2": "KE",
+                "country-code": "404"
+              },
+              {
+                "name": "Kiribati",
+                "alpha-2": "KI",
+                "country-code": "296"
+              },
+              {
+                "name": "Korea (Democratic People's Republic of)",
+                "alpha-2": "KP",
+                "country-code": "408"
+              },
+              {
+                "name": "Korea (Republic of)",
+                "alpha-2": "KR",
+                "country-code": "410"
+              },
+              {
+                "name": "Kuwait",
+                "alpha-2": "KW",
+                "country-code": "414"
+              },
+              {
+                "name": "Kyrgyzstan",
+                "alpha-2": "KG",
+                "country-code": "417"
+              },
+              {
+                "name": "Lao People's Democratic Republic",
+                "alpha-2": "LA",
+                "country-code": "418"
+              },
+              {
+                "name": "Latvia",
+                "alpha-2": "LV",
+                "country-code": "428"
+              },
+              {
+                "name": "Lebanon",
+                "alpha-2": "LB",
+                "country-code": "422"
+              },
+              {
+                "name": "Lesotho",
+                "alpha-2": "LS",
+                "country-code": "426"
+              },
+              {
+                "name": "Liberia",
+                "alpha-2": "LR",
+                "country-code": "430"
+              },
+              {
+                "name": "Libya",
+                "alpha-2": "LY",
+                "country-code": "434"
+              },
+              {
+                "name": "Liechtenstein",
+                "alpha-2": "LI",
+                "country-code": "438"
+              },
+              {
+                "name": "Lithuania",
+                "alpha-2": "LT",
+                "country-code": "440"
+              },
+              {
+                "name": "Luxembourg",
+                "alpha-2": "LU",
+                "country-code": "442"
+              },
+              {
+                "name": "Macao",
+                "alpha-2": "MO",
+                "country-code": "446"
+              },
+              {
+                "name": "Macedonia (the former Yugoslav Republic of)",
+                "alpha-2": "MK",
+                "country-code": "807"
+              },
+              {
+                "name": "Madagascar",
+                "alpha-2": "MG",
+                "country-code": "450"
+              },
+              {
+                "name": "Malawi",
+                "alpha-2": "MW",
+                "country-code": "454"
+              },
+              {
+                "name": "Malaysia",
+                "alpha-2": "MY",
+                "country-code": "458"
+              },
+              {
+                "name": "Maldives",
+                "alpha-2": "MV",
+                "country-code": "462"
+              },
+              {
+                "name": "Mali",
+                "alpha-2": "ML",
+                "country-code": "466"
+              },
+              {
+                "name": "Malta",
+                "alpha-2": "MT",
+                "country-code": "470"
+              },
+              {
+                "name": "Marshall Islands",
+                "alpha-2": "MH",
+                "country-code": "584"
+              },
+              {
+                "name": "Martinique",
+                "alpha-2": "MQ",
+                "country-code": "474"
+              },
+              {
+                "name": "Mauritania",
+                "alpha-2": "MR",
+                "country-code": "478"
+              },
+              {
+                "name": "Mauritius",
+                "alpha-2": "MU",
+                "country-code": "480"
+              },
+              {
+                "name": "Mayotte",
+                "alpha-2": "YT",
+                "country-code": "175"
+              },
+              {
+                "name": "Mexico",
+                "alpha-2": "MX",
+                "country-code": "484"
+              },
+              {
+                "name": "Micronesia (Federated States of)",
+                "alpha-2": "FM",
+                "country-code": "583"
+              },
+              {
+                "name": "Moldova (Republic of)",
+                "alpha-2": "MD",
+                "country-code": "498"
+              },
+              {
+                "name": "Monaco",
+                "alpha-2": "MC",
+                "country-code": "492"
+              },
+              {
+                "name": "Mongolia",
+                "alpha-2": "MN",
+                "country-code": "496"
+              },
+              {
+                "name": "Montenegro",
+                "alpha-2": "ME",
+                "country-code": "499"
+              },
+              {
+                "name": "Montserrat",
+                "alpha-2": "MS",
+                "country-code": "500"
+              },
+              {
+                "name": "Morocco",
+                "alpha-2": "MA",
+                "country-code": "504"
+              },
+              {
+                "name": "Mozambique",
+                "alpha-2": "MZ",
+                "country-code": "508"
+              },
+              {
+                "name": "Myanmar",
+                "alpha-2": "MM",
+                "country-code": "104"
+              },
+              {
+                "name": "Namibia",
+                "alpha-2": "NA",
+                "country-code": "516"
+              },
+              {
+                "name": "Nauru",
+                "alpha-2": "NR",
+                "country-code": "520"
+              },
+              {
+                "name": "Nepal",
+                "alpha-2": "NP",
+                "country-code": "524"
+              },
+              {
+                "name": "Netherlands",
+                "alpha-2": "NL",
+                "country-code": "528"
+              },
+              {
+                "name": "New Caledonia",
+                "alpha-2": "NC",
+                "country-code": "540"
+              },
+              {
+                "name": "New Zealand",
+                "alpha-2": "NZ",
+                "country-code": "554"
+              },
+              {
+                "name": "Nicaragua",
+                "alpha-2": "NI",
+                "country-code": "558"
+              },
+              {
+                "name": "Niger",
+                "alpha-2": "NE",
+                "country-code": "562"
+              },
+              {
+                "name": "Nigeria",
+                "alpha-2": "NG",
+                "country-code": "566"
+              },
+              {
+                "name": "Niue",
+                "alpha-2": "NU",
+                "country-code": "570"
+              },
+              {
+                "name": "Norfolk Island",
+                "alpha-2": "NF",
+                "country-code": "574"
+              },
+              {
+                "name": "Northern Mariana Islands",
+                "alpha-2": "MP",
+                "country-code": "580"
+              },
+              {
+                "name": "Norway",
+                "alpha-2": "NO",
+                "country-code": "578"
+              },
+              {
+                "name": "Oman",
+                "alpha-2": "OM",
+                "country-code": "512"
+              },
+              {
+                "name": "Pakistan",
+                "alpha-2": "PK",
+                "country-code": "586"
+              },
+              {
+                "name": "Palau",
+                "alpha-2": "PW",
+                "country-code": "585"
+              },
+              {
+                "name": "Palestine, State of",
+                "alpha-2": "PS",
+                "country-code": "275"
+              },
+              {
+                "name": "Panama",
+                "alpha-2": "PA",
+                "country-code": "591"
+              },
+              {
+                "name": "Papua New Guinea",
+                "alpha-2": "PG",
+                "country-code": "598"
+              },
+              {
+                "name": "Paraguay",
+                "alpha-2": "PY",
+                "country-code": "600"
+              },
+              {
+                "name": "Peru",
+                "alpha-2": "PE",
+                "country-code": "604"
+              },
+              {
+                "name": "Philippines",
+                "alpha-2": "PH",
+                "country-code": "608"
+              },
+              {
+                "name": "Pitcairn",
+                "alpha-2": "PN",
+                "country-code": "612"
+              },
+              {
+                "name": "Poland",
+                "alpha-2": "PL",
+                "country-code": "616"
+              },
+              {
+                "name": "Portugal",
+                "alpha-2": "PT",
+                "country-code": "620"
+              },
+              {
+                "name": "Puerto Rico",
+                "alpha-2": "PR",
+                "country-code": "630"
+              },
+              {
+                "name": "Qatar",
+                "alpha-2": "QA",
+                "country-code": "634"
+              },
+              {
+                "name": "Réunion",
+                "alpha-2": "RE",
+                "country-code": "638"
+              },
+              {
+                "name": "Romania",
+                "alpha-2": "RO",
+                "country-code": "642"
+              },
+              {
+                "name": "Russian Federation",
+                "alpha-2": "RU",
+                "country-code": "643"
+              },
+              {
+                "name": "Rwanda",
+                "alpha-2": "RW",
+                "country-code": "646"
+              },
+              {
+                "name": "Saint Barthélemy",
+                "alpha-2": "BL",
+                "country-code": "652"
+              },
+              {
+                "name": "Saint Kitts and Nevis",
+                "alpha-2": "KN",
+                "country-code": "659"
+              },
+              {
+                "name": "Saint Lucia",
+                "alpha-2": "LC",
+                "country-code": "662"
+              },
+              {
+                "name": "Saint Pierre and Miquelon",
+                "alpha-2": "PM",
+                "country-code": "666"
+              },
+              {
+                "name": "Saint Vincent and the Grenadines",
+                "alpha-2": "VC",
+                "country-code": "670"
+              },
+              {
+                "name": "Samoa",
+                "alpha-2": "WS",
+                "country-code": "882"
+              },
+              {
+                "name": "San Marino",
+                "alpha-2": "SM",
+                "country-code": "674"
+              },
+              {
+                "name": "Sao Tome and Principe",
+                "alpha-2": "ST",
+                "country-code": "678"
+              },
+              {
+                "name": "Saudi Arabia",
+                "alpha-2": "SA",
+                "country-code": "682"
+              },
+              {
+                "name": "Senegal",
+                "alpha-2": "SN",
+                "country-code": "686"
+              },
+              {
+                "name": "Serbia",
+                "alpha-2": "RS",
+                "country-code": "688"
+              },
+              {
+                "name": "Seychelles",
+                "alpha-2": "SC",
+                "country-code": "690"
+              },
+              {
+                "name": "Sierra Leone",
+                "alpha-2": "SL",
+                "country-code": "694"
+              },
+              {
+                "name": "Singapore",
+                "alpha-2": "SG",
+                "country-code": "702"
+              },
+              {
+                "name": "Sint Maarten (Dutch part)",
+                "alpha-2": "SX",
+                "country-code": "534"
+              },
+              {
+                "name": "Slovakia",
+                "alpha-2": "SK",
+                "country-code": "703"
+              },
+              {
+                "name": "Slovenia",
+                "alpha-2": "SI",
+                "country-code": "705"
+              },
+              {
+                "name": "Solomon Islands",
+                "alpha-2": "SB",
+                "country-code": "090"
+              },
+              {
+                "name": "Somalia",
+                "alpha-2": "SO",
+                "country-code": "706"
+              },
+              {
+                "name": "South Africa",
+                "alpha-2": "ZA",
+                "country-code": "710"
+              },
+              {
+                "name": "South Georgia and the South Sandwich Islands",
+                "alpha-2": "GS",
+                "country-code": "239"
+              },
+              {
+                "name": "South Sudan",
+                "alpha-2": "SS",
+                "country-code": "728"
+              },
+              {
+                "name": "Spain",
+                "alpha-2": "ES",
+                "country-code": "724"
+              },
+              {
+                "name": "Sri Lanka",
+                "alpha-2": "LK",
+                "country-code": "144"
+              },
+              {
+                "name": "Sudan",
+                "alpha-2": "SD",
+                "country-code": "729"
+              },
+              {
+                "name": "Suriname",
+                "alpha-2": "SR",
+                "country-code": "740"
+              },
+              {
+                "name": "Svalbard and Jan Mayen",
+                "alpha-2": "SJ",
+                "country-code": "744"
+              },
+              {
+                "name": "Swaziland",
+                "alpha-2": "SZ",
+                "country-code": "748"
+              },
+              {
+                "name": "Sweden",
+                "alpha-2": "SE",
+                "country-code": "752"
+              },
+              {
+                "name": "Switzerland",
+                "alpha-2": "CH",
+                "country-code": "756"
+              },
+              {
+                "name": "Syrian Arab Republic",
+                "alpha-2": "SY",
+                "country-code": "760"
+              },
+              {
+                "name": "Taiwan, Province of China",
+                "alpha-2": "TW",
+                "country-code": "158"
+              },
+              {
+                "name": "Tajikistan",
+                "alpha-2": "TJ",
+                "country-code": "762"
+              },
+              {
+                "name": "Tanzania, United Republic of",
+                "alpha-2": "TZ",
+                "country-code": "834"
+              },
+              {
+                "name": "Thailand",
+                "alpha-2": "TH",
+                "country-code": "764"
+              },
+              {
+                "name": "Timor-Leste",
+                "alpha-2": "TL",
+                "country-code": "626"
+              },
+              {
+                "name": "Togo",
+                "alpha-2": "TG",
+                "country-code": "768"
+              },
+              {
+                "name": "Tokelau",
+                "alpha-2": "TK",
+                "country-code": "772"
+              },
+              {
+                "name": "Tonga",
+                "alpha-2": "TO",
+                "country-code": "776"
+              },
+              {
+                "name": "Trinidad and Tobago",
+                "alpha-2": "TT",
+                "country-code": "780"
+              },
+              {
+                "name": "Tunisia",
+                "alpha-2": "TN",
+                "country-code": "788"
+              },
+              {
+                "name": "Turkey",
+                "alpha-2": "TR",
+                "country-code": "792"
+              },
+              {
+                "name": "Turkmenistan",
+                "alpha-2": "TM",
+                "country-code": "795"
+              },
+              {
+                "name": "Turks and Caicos Islands",
+                "alpha-2": "TC",
+                "country-code": "796"
+              },
+              {
+                "name": "Tuvalu",
+                "alpha-2": "TV",
+                "country-code": "798"
+              },
+              {
+                "name": "Uganda",
+                "alpha-2": "UG",
+                "country-code": "800",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "Ukraine",
+                "alpha-2": "UA",
+                "country-code": "804",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "United Arab Emirates",
+                "alpha-2": "AE",
+                "country-code": "784",
+                "arabicName": "الإمارات العربية المتحدة",
+                "supportedLanguages": [
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  },
+                  {
+                    "name": "English",
+                    "code": "en"
+                  }
+                ]
+              },
+              {
+                "name": "United Kingdom",
+                "alpha-2": "GB",
+                "country-code": "826",
+                "arabicName": "المملكة المتحدة",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "United States of America",
+                "alpha-2": "US",
+                "country-code": "840",
+                "arabicName": "الولايات المتحدة",
+                "supportedLanguages": [
+                  {
+                    "name": "English",
+                    "code": "en"
+                  },
+                  {
+                    "name": "العربية",
+                    "code": "ar"
+                  }
+                ]
+              },
+              {
+                "name": "United States Minor Outlying Islands",
+                "alpha-2": "UM",
+                "country-code": "581"
+              },
+              {
+                "name": "Uruguay",
+                "alpha-2": "UY",
+                "country-code": "858"
+              },
+              {
+                "name": "Uzbekistan",
+                "alpha-2": "UZ",
+                "country-code": "860"
+              },
+              {
+                "name": "Vanuatu",
+                "alpha-2": "VU",
+                "country-code": "548"
+              },
+              {
+                "name": "Venezuela (Bolivarian Republic of)",
+                "alpha-2": "VE",
+                "country-code": "862"
+              },
+              {
+                "name": "Viet Nam",
+                "alpha-2": "VN",
+                "country-code": "704"
+              },
+              {
+                "name": "Virgin Islands (British)",
+                "alpha-2": "VG",
+                "country-code": "092"
+              },
+              {
+                "name": "Virgin Islands (U.S.)",
+                "alpha-2": "VI",
+                "country-code": "850"
+              },
+              {
+                "name": "Wallis and Futuna",
+                "alpha-2": "WF",
+                "country-code": "876"
+              },
+              {
+                "name": "Yemen",
+                "alpha-2": "YE",
+                "country-code": "887"
+              },
+              {
+                "name": "Zambia",
+                "alpha-2": "ZM",
+                "country-code": "894"
+              },
+              {
+                "name": "Zimbabwe",
+                "alpha-2": "ZW",
+                "country-code": "716"
+              }
+            ],
+            "template": {
+              "title": "language-selector"
+            }
+          },
+          "search": {
+            "data": {
+              "content": {
+                "placeholder": "Enter your search",
+                "searchButtonTitle": "Search",
+                "closeText": "Close",
+                "quickLinksHeader": "Quick links",
+                "quickLinks": [
+                  {
+                    "name": "Baggage Allowance",
+                    "url": "/baggage-allowance"
+                  },
+                  {
+                    "name": "Check-in",
+                    "url": "/check-in"
+                  },
+                  {
+                    "name": "Visa and immigration",
+                    "url": "/visa-and-immigration"
+                  }
+                ],
+                "faqText": "FAQs",
+                "faqs": []
+              },
+              "template": {
+                "title": "search"
+              }
+            }
+          },
+          "login": {
+            "data": {
+              "content": {
+                "state": {
+                  "unauthorised": {
+                    "title": "Login",
+                    "emailLabel": "Email or Account Number",
+                    "passwordLabel": "Password",
+                    "forgotEmailLink": "Forgot your e-mail or account number?",
+                    "forgotEmailUrl": "/forgot-email",
+                    "forgotPasswordLink": "Forgot your password?",
+                    "forgotPasswordUrl": "/forgot-password",
+                    "rememberMeLabel": "Remember me on this computer",
+                    "loginButtonLabel": "Log in",
+                    "captcha": {
+                      "captchaPrompt": "Choose a verification method",
+                      "visualTabLabel": "Visual",
+                      "audioTabLabel": "Audio",
+                      "captchaChallenge": "Select the light bulb"
+                    }
+                  },
+                  "error": {
+                    "deniedLabel": "Email, Account Number or Password entered are incorrect. Please try again.",
+                    "captchaLabel": "Please verify your account using captcha"
+                  }
+                },
+                "register": {
+                  "orLabel": "or",
+                  "emiratesMemberPrompt": "Not an Emirates Skywards member yet?",
+                  "registerNowButtonLabel": "Register now"
+                }
+              },
+              "template": {
+                "title": "login"
+              }
+            }
+          }
+        },
+        "accessibility-links": {
+          "buttons": [
+            {
+              "text": "Skip to the main content",
+              "url": "#maincontent",
+              "tabindex": 1
+            },
+            {
+              "text": "Accessibility information",
+              "url": "/accessibility-information",
+              "tabindex": 2
+            }
+          ],
+          "template": {
+            "title": "accessibility-control"
+          }
+        }
+      },
+      "template": {
+        "title": "main-navigation"
+      }
+    },
+    "footer": {
+      "content": {
+        "showLiteFooter": false,
+        "middle": [
+          {
+            "heading": "About Emirates",
+            "modulo": 3,
+            "list": [
+              {
+                "title": "Emirates Airline",
+                "url": "/emirates"
+              },
+              {
+                "title": "Sponsorships",
+                "url": "http://group.emirates.com/sponsorships"
+              },
+              {
+                "title": "Emirates Group",
+                "url": "http://group.emirates.com/"
+              },
+              {
+                "title": "The environment",
+                "url": "/environment"
+              },
+              {
+                "title": "Media Centre",
+                "url": "http://group.emirates.com/media-centre"
+              },
+              {
+                "title": "International and government affairs",
+                "url": "/international-affairs"
+              },
+              {
+                "title": "Careers",
+                "url": "http://careers.emirates.com/",
+                "hoverState": true
+              }
+            ]
+          },
+          {
+            "heading": "Emirates World",
+            "modulo": 2,
+            "list": [
+              {
+                "title": "Open Skies magazine",
+                "url": "/open-skies",
+                "hoverState": true
+              },
+              {
+                "title": "Cities",
+                "url": "/cities",
+                "children": [
+                  {
+                    "title": "London",
+                    "url": "/cities/london"
+                  },
+                  {
+                    "title": "Dubai",
+                    "url": "/cities/dubai"
+                  },
+                  {
+                    "title": "San Francisco",
+                    "url": "/cities/san-francisco"
+                  },
+                  {
+                    "title": "New York",
+                    "url": "/cities/new-york"
+                  },
+                  {
+                    "title": "Melbourne",
+                    "url": "/cities/melbourne"
+                  },
+                  {
+                    "title": "Singapore",
+                    "url": "/cities/singapore"
+                  }
+                ]
+              },
+              {
+                "title": "Emirates High Street",
+                "url": "/emirates-high-street"
+              },
+              {
+                "title": "Destinations",
+                "url": "/destinations",
+                "children": [
+                  {
+                    "title": "Perth",
+                    "url": "/destinations/perth"
+                  },
+                  {
+                    "title": "Madrid",
+                    "url": "/destinations/madrid"
+                  },
+                  {
+                    "title": "New York",
+                    "url": "/destination/new-york"
+                  },
+                  {
+                    "title": "Düsseldorf",
+                    "url": "/destinations/dusseldorf"
+                  },
+                  {
+                    "title": "Zürich",
+                    "url": "/destinations/zurich"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Site tools",
+            "modulo": 2,
+            "list": [
+              {
+                "title": "Sitemap",
+                "url": "/sitemap"
+              },
+              {
+                "title": "Check-in online",
+                "url": "/check-in"
+              },
+              {
+                "title": "Search for flights",
+                "url": "/search"
+              },
+              {
+                "title": "Select country and language",
+                "url": "#language"
+              },
+              {
+                "title": "Flight status",
+                "url": "/flight-status"
+              }
+            ]
+          }
+        ]
+      },
+      "template": {
+        "title": "footer"
+      }
+    }
+  },
+  "components": [
+    {
+      "content": {
+        "subheading": "Meet",
+        "heading": "The Locals",
+        "description": "before you arrive",
+        "cta": {
+          "title": "Learn more",
+          "externalLink": "#learn-more",
+          "target": "_self",
+          "label": "Learn more"
+        },
+        "desktopImage": "/assets/img/hero/A7EE4201-CC28-44A3-9BF3-64D2EE47D931@1x.jpg",
+        "altText": "Hero image",
+        "widget": {
+          "content": {
+            "items": [
+              {
+                "tabLabel": "Search flights",
+                "tabIcon": "a-380-outbound",
+                "panelComponent": {
+                  "ctaLabel": "Continue",
+                  "destinationDropdown": {
+                    "global": true,
+                    "local": true,
+                    "placeholder": "Going to",
+                    "currentLocationHeader": "Current location",
+                    "allLocationsHeader": "All locations",
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ]
+                  },
+                  "originDropdown": {
+                    "global": true,
+                    "local": true,
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ]
+                  },
+                  "classDropdown": {
+                    "heading": "Class",
+                    "items": [
+                      {
+                        "id": "upper",
+                        "class": "Economy Class"
+                      },
+                      {
+                        "id": "lower",
+                        "class": "Business Class"
+                      },
+                      {
+                        "id": "first",
+                        "class": "First Class"
+                      }
+                    ]
+                  },
+                  "passengerField": {
+                    "heading": "Passengers",
+                    "note": "Note: ",
+                    "information": "Max 9 Passengers per booking",
+                    "items": [
+                      {
+                        "id": "adult",
+                        "title": "Adult",
+                        "detail": "Ages +16",
+                        "max": 5
+                      },
+                      {
+                        "id": "teenagers",
+                        "title": "Teenagers",
+                        "detail": "Ages 12-15",
+                        "max": 15
+                      },
+                      {
+                        "id": "children",
+                        "title": "Children",
+                        "detail": "Ages 2-11",
+                        "max": 9
+                      },
+                      {
+                        "id": "lap_infant",
+                        "title": "Lap Infants",
+                        "detail": "Ages 0-2",
+                        "max": 5
+                      }
+                    ]
+                  }
+                },
+                "template": {
+                  "title": "search-flight"
+                }
+              },
+              {
+                "tabLabel": "My trips / Check-in",
+                "tabIcon": "fares-1",
+                "panelComponent": {
+                  "loggedIn": false,
+                  "allTripsCount": 4,
+                  "trips": [
+                    {
+                      "BoardingPoint": "DXB",
+                      "BoardingAiport": "Dubai",
+                      "DestinationPoint": "CPH",
+                      "DestinationAirport": "Copenhagen",
+                      "DepartureDate": "26/10/2016",
+                      "BookingRefNo": "LGIWNW",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=LGIWNW&j=t",
+                      "TripLink": "/transfer.aspx?pageurl=/account/ae/english/manage-account/upcoming-flights/upcoming-flights.aspx&section=MYA&th=08885a173033cc9760c42ff654c6cb724d0e4933"
+                    },
+                    {
+                      "BoardingPoint": "DOH",
+                      "BoardingAiport": "Doha",
+                      "DestinationPoint": "DXB",
+                      "DestinationAirport": "Dubai",
+                      "DepartureDate": "27/10/2016",
+                      "BookingRefNo": "IHK3WW",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=IHK3WW&j=t",
+                      "TripLink": ""
+                    },
+                    {
+                      "BoardingPoint": "DXB",
+                      "BoardingAiport": "Dubai",
+                      "DestinationPoint": "LHR",
+                      "DestinationAirport": "London Heathrow",
+                      "DepartureDate": "27/10/2016",
+                      "BookingRefNo": "KPMX5J",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=KPMX5J&j=t",
+                      "TripLink": ""
+                    }
+                  ]
+                },
+                "template": {
+                  "title": "my-trips"
+                }
+              },
+              {
+                "tabLabel": "What's on my flight",
+                "tabIcon": "waitlisted",
+                "panelComponent": {
+                  "loggedIn": false,
+                  "logInButtonText": "Login to see what's on your flights",
+                  "upcomingFlightsHeader": "Upcoming flights",
+                  "allFlightsCount": "5",
+                  "upcomingFlights": [
+                    {
+                      "BoardingPoint": "DXB",
+                      "BoardingAiport": "Dubai",
+                      "DestinationPoint": "CPH",
+                      "DestinationAirport": "Copenhagen",
+                      "DepartureDate": "26/10/2016",
+                      "BookingRefNo": "LGIWNW",
+                      "FlightNo": "EK003",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=LGIWNW&j=t",
+                      "TripLink": "/transfer.aspx?pageurl=/account/ae/english/manage-account/upcoming-flights/upcoming-flights.aspx&section=MYA&th=08885a173033cc9760c42ff654c6cb724d0e4933"
+                    },
+                    {
+                      "BoardingPoint": "DOH",
+                      "BoardingAiport": "Doha",
+                      "DestinationPoint": "DXB",
+                      "DestinationAirport": "Dubai",
+                      "DepartureDate": "27/10/2016",
+                      "BookingRefNo": "IHK3WW",
+                      "FlightNo": "EK003",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=IHK3WW&j=t",
+                      "TripLink": ""
+                    }
+                  ],
+                  "destinationDropdown": {
+                    "global": true,
+                    "local": true,
+                    "placeholder": "Going to",
+                    "currentLocationHeader": "Current location",
+                    "allLocationsHeader": "All locations",
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ],
+                    "isOneThird": true
+                  },
+                  "originDropdown": {
+                    "global": true,
+                    "local": true,
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ],
+                    "isOneThird": true
+                  },
+                  "dateDropdown": {
+                    "items": [
+                      {
+                        "id": "yesterday",
+                        "class": "Yesterday, 04 Jun 16"
+                      },
+                      {
+                        "id": "today",
+                        "class": "Today, 05 Jun 16"
+                      },
+                      {
+                        "id": "tomorrow",
+                        "class": "Tomorrow, 06 Jun 16"
+                      }
+                    ]
+                  },
+                  "dateField": {
+                    "items": [
+                      {
+                        "id": "adult",
+                        "title": "Adult",
+                        "detail": "Ages +16",
+                        "max": 5
+                      },
+                      {
+                        "id": "teenagers",
+                        "title": "Teenagers",
+                        "detail": "Ages 12-15",
+                        "max": 15
+                      },
+                      {
+                        "id": "children",
+                        "title": "Children",
+                        "detail": "Ages 2-11",
+                        "max": 9
+                      }
+                    ]
+                  },
+                  "passengerField": {
+                    "heading": "Passengers",
+                    "note": "Note: ",
+                    "information": "Max 9 Passengers per booking",
+                    "items": [
+                      {
+                        "title": "Adult",
+                        "detail": "Ages +16"
+                      },
+                      {
+                        "title": "Teenagers",
+                        "detail": "Ages 12-15"
+                      },
+                      {
+                        "title": "Children",
+                        "detail": "Ages 2-11"
+                      }
+                    ]
+                  }
+                },
+                "template": {
+                  "title": "whats-on-my-flight"
+                }
+              },
+              {
+                "tabLabel": "Check flight status",
+                "tabIcon": "scheduled-flight",
+                "panelComponent": {
+                  "loggedIn": false,
+                  "allFlightsCount": "5",
+                  "upcomingFlights": [
+                    {
+                      "FlightStatusCode": "ARVD",
+                      "BoardingPoint": "DXB",
+                      "BoardingAiport": "Dubai",
+                      "DestinationPoint": "CPH",
+                      "DestinationAirport": "Copenhagen",
+                      "DepartureDate": "26/10/2016",
+                      "BookingRefNo": "LGIWNW",
+                      "FlightNo": "EK003",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=LGIWNW&j=t",
+                      "TripLink": "/transfer.aspx?pageurl=/account/ae/english/manage-account/upcoming-flights/upcoming-flights.aspx&section=MYA&th=08885a173033cc9760c42ff654c6cb724d0e4933"
+                    },
+                    {
+                      "FlightStatusCode": "PDEP",
+                      "BoardingPoint": "DOH",
+                      "BoardingAiport": "Doha",
+                      "DestinationPoint": "DXB",
+                      "DestinationAirport": "Dubai",
+                      "DepartureDate": "27/10/2016",
+                      "BookingRefNo": "IHK3WW",
+                      "FlightNo": "EK003",
+                      "MYBLink": "/SessionHandler.aspx?pub=/ae/english&pageurl=/MYB.aspx&section=MYB&lastname2=bk&bookref2=IHK3WW&j=t",
+                      "TripLink": ""
+                    }
+                  ],
+                  "destinationDropdown": {
+                    "global": true,
+                    "local": true,
+                    "placeholder": "Going to",
+                    "currentLocationHeader": "Current location",
+                    "allLocationsHeader": "All locations",
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ],
+                    "isOneThird": true
+                  },
+                  "originDropdown": {
+                    "global": true,
+                    "local": true,
+                    "items": [
+                      {
+                        "id": "mumbai",
+                        "airport-city": "Mumbai",
+                        "airport-country": "India",
+                        "airport-name": "Chhatrapati Shivaji Int. Airport",
+                        "airport-acronym": "BOM",
+                        "searchTerms": [
+                          "Chhatrapati Shivaji Int. Airport",
+                          "BOM",
+                          "India",
+                          "Mumbai"
+                        ],
+                        "type": {
+                          "local": true
+                        }
+                      },
+                      {
+                        "id": "ahmedabad",
+                        "airport-city": "Ahmedabad",
+                        "airport-country": "India",
+                        "airport-name": "Ahmedabad int airport",
+                        "airport-acronym": "AHM",
+                        "searchTerms": [
+                          "Ahmbedad Airport",
+                          "AHM",
+                          "India",
+                          "Ahmedabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "bengaluru",
+                        "airport-city": "Bengaluru",
+                        "airport-country": "India",
+                        "airport-name": "Bengaluru Int Airport",
+                        "airport-acronym": "BNG",
+                        "searchTerms": [
+                          "Bengaluru Airport",
+                          "BNG",
+                          "India",
+                          "Bengaluru"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "chennai",
+                        "airport-city": "Chennai",
+                        "airport-country": "India",
+                        "airport-name": "Chennai Airport",
+                        "airport-acronym": "CHN",
+                        "searchTerms": [
+                          "Chennai Airport",
+                          "CHN",
+                          "Chennai"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "delhi",
+                        "airport-city": "Delhi",
+                        "airport-country": "India",
+                        "airport-name": "Delhi int airport",
+                        "airport-acronym": "DEL",
+                        "searchTerms": [
+                          "Delhi int airport",
+                          "DEL",
+                          "India",
+                          "Delhi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "hyderabad",
+                        "airport-city": "Hyderabad",
+                        "airport-country": "India",
+                        "airport-name": "Hyderabad Airport",
+                        "airport-acronym": "HDB",
+                        "searchTerms": [
+                          "Hyderabad Airport",
+                          "HDB",
+                          "India",
+                          "Hyderabad"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kochi",
+                        "airport-city": "Kochi",
+                        "airport-country": "India",
+                        "airport-name": "Kochi Airport",
+                        "airport-acronym": "KOC",
+                        "searchTerms": [
+                          "Kochi Airport",
+                          "KOC",
+                          "India",
+                          "Kochi"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      },
+                      {
+                        "id": "kolkota",
+                        "airport-city": "Kolkota",
+                        "airport-country": "India",
+                        "airport-name": "Kolkota Int. Airport",
+                        "airport-acronym": "KOL",
+                        "searchTerms": [
+                          "Kolkota Int. Airport",
+                          "KOL",
+                          "India",
+                          "Kolkota"
+                        ],
+                        "type": {
+                          "global": true
+                        }
+                      }
+                    ],
+                    "isOneThird": true
+                  },
+                  "dateDropdown": {
+                    "items": [
+                      {
+                        "id": "yesterday",
+                        "class": "Yesterday, 04 Jun 16"
+                      },
+                      {
+                        "id": "today",
+                        "class": "Today, 05 Jun 16"
+                      },
+                      {
+                        "id": "tomorrow",
+                        "class": "Tomorrow, 06 Jun 16"
+                      }
+                    ]
+                  },
+                  "dateField": {
+                    "items": [
+                      {
+                        "id": "adult",
+                        "title": "Adult",
+                        "detail": "Ages +16",
+                        "max": 5
+                      },
+                      {
+                        "id": "teenagers",
+                        "title": "Teenagers",
+                        "detail": "Ages 12-15",
+                        "max": 15
+                      },
+                      {
+                        "id": "children",
+                        "title": "Children",
+                        "detail": "Ages 2-11",
+                        "max": 9
+                      }
+                    ]
+                  },
+                  "passengerField": {
+                    "heading": "Passengers",
+                    "note": "Note: ",
+                    "information": "Max 9 Passengers per booking",
+                    "items": [
+                      {
+                        "title": "Adult",
+                        "detail": "Ages +16"
+                      },
+                      {
+                        "title": "Teenagers",
+                        "detail": "Ages 12-15"
+                      },
+                      {
+                        "title": "Children",
+                        "detail": "Ages 2-11"
+                      }
+                    ]
+                  }
+                },
+                "template": {
+                  "title": "flight-status"
+                }
+              }
+            ]
+          },
+          "template": {
+            "title": "widget"
+          }
+        }
+      },
+      "template": {
+        "title": "hero-banner"
+      }
+    },
+    {
+      "content": {
+        "products": [
+          {
+            "name": "Hotels",
+            "url": "#hotels",
+            "class": "icon-hotels",
+            "description": "Book a hotel for a special fare",
+            "target": "_blank"
+          },
+          {
+            "name": "Holidays",
+            "url": "#holidays",
+            "class": "icon-sun-lounger",
+            "description": "Find holidays for your budget",
+            "target": "_blank"
+          },
+          {
+            "name": "Activities",
+            "url": "#activites",
+            "class": "icon-water-sports",
+            "description": "Book activities for your next trip"
+          },
+          {
+            "name": "Cars",
+            "url": "#cars",
+            "class": "icon-car-hire",
+            "description": "Hire a car",
+            "target": "_blank"
+          },
+          {
+            "name": "Transfers",
+            "url": "#transfers",
+            "class": "icon-bus",
+            "description": "Book a transfer"
+          },
+          {
+            "name": "Chauffeur",
+            "url": "#chauffeur",
+            "class": "icon-driver",
+            "description": "Arrange your chauffeaur"
+          },
+          {
+            "name": "Marhaba",
+            "url": "#marhaba",
+            "class": "icon-partner-lounge",
+            "description": "Meet and greet at the airport"
+          },
+          {
+            "name": "Insurance",
+            "url": "#insurance",
+            "class": "icon-eticket",
+            "description": "Arrange travel insurance",
+            "target": "_blank"
+          }
+        ]
+      },
+      "template": {
+        "title": "products-block"
+      }
+    },
+    {
+      "content": {
+        "status": "OK",
+        "depairportcode": "FRA",
+        "depairporttitle": "Frankfurt",
+        "featuredfarecount": 125,
+        "newffurl": "/de/english/destinations/featured-fares/cities/",
+        "promotedfares": [
+          {
+            "destimage": "/assets/homepage/214A5234-B809-4F57-8801-1E5FF9AA2903@2x.png",
+            "destairporttitle": "Warsaw",
+            "country": "Poland",
+            "travelclass": "Y",
+            "travelclasstext": "Economy",
+            "traveltype": "return",
+            "traveltypetext": "return",
+            "destairportcode": "PVG",
+            "price": "AED 3,700*",
+            "currencyprice": "3,700",
+            "hash": "a483bc289ac1f09c8424681878edec1c00372ae5",
+            "url": "/nl/english/destinations_offers/special_offers/special_fares/special_fares.aspx",
+            "id": "3635279",
+            "expires": "09 July 16"
+          },
+          {
+            "destimage": "/assets/homepage/3D47CA47-FC59-45A2-A443-C33A383240C5@2x.png",
+            "destairporttitle": "Milan",
+            "country": "Italy",
+            "travelclass": "Y",
+            "travelclasstext": "Economy",
+            "traveltype": "return",
+            "traveltypetext": "return",
+            "destairportcode": "PVG",
+            "price": "AED 3,700*",
+            "currencyprice": "3,700",
+            "hash": "a483bc289ac1f09c8424681878edec1c00372ae5",
+            "url": "/nl/english/destinations_offers/special_offers/special_fares/special_fares.aspx",
+            "id": "3635279",
+            "expires": "09 July 16"
+          },
+          {
+            "destimage": "/assets/homepage/6530E329-74C3-4F77-AF46-2C0833F58A28@2x.png",
+            "destairporttitle": "Tokyo",
+            "country": "Japan",
+            "travelclass": "Y",
+            "travelclasstext": "Economy",
+            "traveltype": "return",
+            "traveltypetext": "return",
+            "destairportcode": "PVG",
+            "price": "AED 3,700*",
+            "currencyprice": "3,700",
+            "hash": "a483bc289ac1f09c8424681878edec1c00372ae5",
+            "url": "/nl/english/destinations_offers/special_offers/special_fares/special_fares.aspx",
+            "id": "3635279",
+            "expires": "09 July 16"
+          },
+          {
+            "destimage": "/assets/homepage/728669D3-8EBC-4796-BADB-EB35CE27E33E@2x.png",
+            "destairporttitle": "Copenhagen",
+            "country": "Denmark",
+            "travelclass": "Y",
+            "travelclasstext": "Economy",
+            "traveltype": "return",
+            "traveltypetext": "return",
+            "destairportcode": "PVG",
+            "price": "AED 3,700*",
+            "currencyprice": "3,700",
+            "hash": "a483bc289ac1f09c8424681878edec1c00372ae5",
+            "url": "/nl/english/destinations_offers/special_offers/special_fares/special_fares.aspx",
+            "id": "3635279",
+            "expires": "09 July 16"
+          }
+        ],
+        "dropdown": {
+          "global": true,
+          "local": true,
+          "items": [
+            {
+              "id": "mumbai",
+              "airport-city": "Mumbai",
+              "airport-country": "India",
+              "airport-name": "Chhatrapati Shivaji Int. Airport",
+              "airport-acronym": "BOM",
+              "searchTerms": [
+                "Chhatrapati Shivaji Int. Airport",
+                "BOM",
+                "India",
+                "Mumbai"
+              ],
+              "type": {
+                "local": true
+              }
+            },
+            {
+              "id": "ahmedabad",
+              "airport-city": "Ahmedabad",
+              "airport-country": "India",
+              "airport-name": "Ahmedabad int airport",
+              "airport-acronym": "AHM",
+              "searchTerms": [
+                "Ahmbedad Airport",
+                "AHM",
+                "India",
+                "Ahmedabad"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "bengaluru",
+              "airport-city": "Bengaluru",
+              "airport-country": "India",
+              "airport-name": "Bengaluru Int Airport",
+              "airport-acronym": "BNG",
+              "searchTerms": [
+                "Bengaluru Airport",
+                "BNG",
+                "India",
+                "Bengaluru"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "chennai",
+              "airport-city": "Chennai",
+              "airport-country": "India",
+              "airport-name": "Chennai Airport",
+              "airport-acronym": "CHN",
+              "searchTerms": [
+                "Chennai Airport",
+                "CHN",
+                "Chennai"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "delhi",
+              "airport-city": "Delhi",
+              "airport-country": "India",
+              "airport-name": "Delhi int airport",
+              "airport-acronym": "DEL",
+              "searchTerms": [
+                "Delhi int airport",
+                "DEL",
+                "India",
+                "Delhi"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "hyderabad",
+              "airport-city": "Hyderabad",
+              "airport-country": "India",
+              "airport-name": "Hyderabad Airport",
+              "airport-acronym": "HDB",
+              "searchTerms": [
+                "Hyderabad Airport",
+                "HDB",
+                "India",
+                "Hyderabad"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "kochi",
+              "airport-city": "Kochi",
+              "airport-country": "India",
+              "airport-name": "Kochi Airport",
+              "airport-acronym": "KOC",
+              "searchTerms": [
+                "Kochi Airport",
+                "KOC",
+                "India",
+                "Kochi"
+              ],
+              "type": {
+                "global": true
+              }
+            },
+            {
+              "id": "kolkota",
+              "airport-city": "Kolkota",
+              "airport-country": "India",
+              "airport-name": "Kolkota Int. Airport",
+              "airport-acronym": "KOL",
+              "searchTerms": [
+                "Kolkota Int. Airport",
+                "KOL",
+                "India",
+                "Kolkota"
+              ],
+              "type": {
+                "global": true
+              }
+            }
+          ]
+        }
+      },
+      "template": {
+        "title": "featured-fares"
+      }
+    },
+    {
+      "content": {
+        "onePromoArea": {
+          "isFullBleed": false,
+          "isFullSize": true,
+          "hasDivider": false,
+          "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+          "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+          "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+          "promoEarn": "EARN",
+          "promoMiles": "15,000 miles",
+          "promoLabel": "When you pay with your Emirates NBD credit card.",
+          "promotCTAUrl": "#",
+          "promotCTALabel": "Find out more"
+        },
+        "twoPromoArea": [
+          {
+            "isFullBleed": false,
+            "isFullSize": false,
+            "hasDivider": true,
+            "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+            "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "promoEarn": "EARN",
+            "promoMiles": "15,000 miles",
+            "promoLabel": "When you pay with your Emirates NBD credit card.",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          },
+          {
+            "isFullBleed": false,
+            "isFullSize": false,
+            "hasDivider": false,
+            "mobileImage": "/assets/homepage/A55283EA-D849-4F25-82EE-CF2E836CECBF@1x.png",
+            "halfSizeDesktopImage": "/assets/homepage/A55283EA-D849-4F25-82EE-CF2E836CECBF@1x.png",
+            "fullSizeDesktopImage": "/assets/homepage/A55283EA-D849-4F25-82EE-CF2E836CECBF@1x.png",
+            "promoEarn": "FEEL THE THRILL",
+            "promoMiles": "Formula 1",
+            "promoLabel": "Bid your Miles for exclusive Formula One Paddock Club",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          }
+        ],
+        "multiplePromoArea": [
+          {
+            "isFullBleed": false,
+            "isFullSize": true,
+            "hasDivider": false,
+            "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+            "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "promoEarn": "EARN",
+            "promoMiles": "15,000 miles",
+            "promoLabel": "When you pay with your Emirates NBD credit card.",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          },
+          {
+            "isFullBleed": false,
+            "isFullSize": false,
+            "hasDivider": true,
+            "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+            "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "promoEarn": "EARN",
+            "promoMiles": "15,000 miles",
+            "promoLabel": "When you pay with your Emirates NBD credit card.",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          },
+          {
+            "isFullBleed": false,
+            "isFullSize": false,
+            "hasDivider": false,
+            "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+            "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "promoEarn": "EARN",
+            "promoMiles": "15,000 miles",
+            "promoLabel": "When you pay with your Emirates NBD credit card.",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          },
+          {
+            "isFullBleed": false,
+            "isFullSize": true,
+            "hasDivider": false,
+            "mobileImage": "../../assets/img/31B934CA-B5C5-4A33-B735-F22A10250B29@1x.png",
+            "halfSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "fullSizeDesktopImage": "../../assets/img/5DCB2CA3-39F9-42A5-AE83-3FE05F36F3BD@1x.png",
+            "promoEarn": "EARN",
+            "promoMiles": "15,000 miles",
+            "promoLabel": "When you pay with your Emirates NBD credit card.",
+            "promotCTAUrl": "#",
+            "promotCTALabel": "Find out more"
+          }
+        ],
+        "fullBleedPromoOneCTA": {
+          "isFullBleed": true,
+          "isFullSize": true,
+          "mobileImage": "../../assets/img/12A127D9-E0FA-4609-A4DF-8752B32F8D4A@1x.png",
+          "desktopImage": "../../assets/img/BB370F05-E510-4B02-8ED3-E9E2A2DB971D@1x.png",
+          "promoEarn": "NEW DESTINATION",
+          "promoMiles": "Fly to Yinchuan & Zhengzhou",
+          "promoLabel": "Choose one of our 4 weekly flights to China's fastest growing cities",
+          "promoCTA": [
+            {
+              "isHalf": false,
+              "promotCTAUrl": "#",
+              "promotCTALabel": "Explore Yinchuan"
+            }
+          ]
+        },
+        "fullBleedPromoTwoCTAs": {
+          "isFullBleed": true,
+          "isFullSize": true,
+          "mobileImage": "../../assets/img/12A127D9-E0FA-4609-A4DF-8752B32F8D4A@1x.png",
+          "desktopImage": "../../assets/img/BB370F05-E510-4B02-8ED3-E9E2A2DB971D@1x.png",
+          "promoEarn": "NEW DESTINATION",
+          "promoMiles": "Fly to Yinchuan & Zhengzhou",
+          "promoLabel": "Choose one of our 4 weekly flights to China's fastest growing cities",
+          "promoCTA": [
+            {
+              "isHalf": true,
+              "promotCTAUrl": "#",
+              "promotCTALabel": "Explore Yinchuan"
+            },
+            {
+              "isHalf": true,
+              "promotCTAUrl": "#",
+              "promotCTALabel": "Explore Zhengzhou"
+            }
+          ]
+        }
+      },
+      "template": {
+        "title": "hc008-local-markets-promos"
+      }
+    },
+    {
+      "content": {
+        "sections": [
+          {
+            "featured": "true",
+            "sectionTitle": "Shower above the clouds",
+            "title": "Onboard Shower Spa",
+            "ctaLinkUrl": "/discover/onboard-shower-spa",
+            "ctaLinkTitle": "Discover more",
+            "imageUrl": "http://adventuresallaround.com/wp-content/uploads/2014/11/A380-shower-spa1-750x497.jpg"
+          },
+          {
+            "sectionTitle": "Dining",
+            "title": "Food and Beverages",
+            "ctaLinkUrl": "/discover/food-and-beverages",
+            "ctaLinkTitle": "View our menu",
+            "imageUrl": "http://cdn.ek.aero/english/images/First%20Class%20dining%20-%20media%20player_4_tcm233-685688.jpg"
+          },
+          {
+            "sectionTitle": "I C E",
+            "title": "ICE Digital Widescreen",
+            "ctaLinkUrl": "/discover/ice-digital-widescreen",
+            "ctaLinkTitle": "See what's on",
+            "imageUrl": "http://www.businessclass.co.uk/wp-content/uploads/sites/11/2016/06/ice-TV-Live-A380-3.jpg"
+          },
+          {
+            "sectionTitle": "Comfortable and modern",
+            "title": "Our fleet",
+            "ctaLinkUrl": "/discover/our-fleet",
+            "ctaLinkTitle": "Discover more",
+            "imageUrl": "http://www.airbus.com/typo3temp/_processed_/csm_A380_Emirates_Cabin_Crew_df1352ac16.jpg"
+          },
+          {
+            "sectionTitle": "Make the most of every mile",
+            "title": "Emirates Skywards",
+            "ctaLinkUrl": "/discover/skywards",
+            "ctaLinkTitle": "Become a member",
+            "imageUrl": "http://content.maltatoday.com.mt/ui_frontend/thumbnail/684/0/emirates-skywards-members-can-redeem-miles-for-easyjet-flights-online-20121127.png"
+          }
+        ],
+        "subsections": [
+          {
+            "title": "Baggage information",
+            "url": "/baggage"
+          },
+          {
+            "title": "First class",
+            "url": "/first-class"
+          },
+          {
+            "title": "Business class",
+            "url": "/business-class"
+          },
+          {
+            "title": "Economy class",
+            "url": "/economy-class"
+          }
+        ]
+      },
+      "template": {
+        "title": "experience-block"
+      }
+    }
+  ]
+}
