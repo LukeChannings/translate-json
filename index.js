@@ -1,5 +1,6 @@
 #!/usr/bin/env node --harmony-async-await
 
+const path = require('path')
 const cli = require('./lib/cli')
 const { translateDeep } = require('./lib/translate')
 const transformers = require('./lib/transformers')
@@ -15,7 +16,7 @@ try {
   }
 
   const options = cli.parseOptions(argv)
-  const doc = require(options.srcPath)
+  const doc = require(path.resolve(process.cwd(), options.srcPath))
 
   const transform =
     options.api
@@ -25,7 +26,9 @@ try {
   const tr = transform(options.apiKey, options.language)
   const test = (a) =>
     typeof a === 'string' &&
-    !(new RegExp(argv.excludeProperties, 'i')).test(a)
+    (argv.excludeProperties
+      ? !(new RegExp(argv.excludeProperties, 'i')).test(a)
+      : true)
 
   translateDeep({
     doc,
