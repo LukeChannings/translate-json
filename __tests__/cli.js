@@ -32,9 +32,5 @@ describe('command line interface', () => {
       const m = minimist('--t yandex --key def456'.split(' '))
       expect(parseApiChoice(m)).toEqual({api: 'yandex', 'apiKey': 'def456'})
     })
-    it('--t lewhat --key def456', () => {
-      const m = minimist('--t lewhat --key def456'.split(' '))
-      expect(() => parseApiChoice(m)).toThrow()
-    })
   })
 })
