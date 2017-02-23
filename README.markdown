@@ -18,6 +18,7 @@ translate-json
     --translator, -t :: The translation service to use. google, or yandex. (Default is google)
     --apiKey, --key, -k :: The API key to be used with the translation service. (Not needed for google.)
     --help, -h :: This help message
+    --version, -v :: The program version
 
 **Note**: Google is the default translator, and an API key is not needed for it.
 

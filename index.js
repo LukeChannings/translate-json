@@ -13,17 +13,14 @@ const {messages} = require('./strings.json')
 const argv = require('minimist')(process.argv.slice(2))
 
 try {
-  main(cli.getOptions(argv))
-    .then(console.log)
+  main(cli.getOptions(argv)).then(console.log)
 } catch (error) {
   console.error([error, os.EOL, ...cli.usage].join(os.EOL))
 }
 
 async function main (opts) {
-  if (opts.help) {
-    console.log(cli.usage.join(os.EOL))
-    return process.exit(0)
-  }
+  if (opts.version) return require('./package.json').version
+  if (opts.help) return cli.usage.join(os.EOL)
 
   const doc = require(path.resolve(process.cwd(), opts.srcPath))
 

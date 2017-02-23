@@ -10,7 +10,8 @@
     "--dryRun, --dry, -d :: Do not actually translate any values, prefix strings with 'zz_' to mark them.",
     "--translator, -t :: The translation service to use. google, or yandex. (Default is google)",
     "--apiKey, --key, -k :: The API key to be used with the translation service. (Not needed for google.)",
-    "--help, -h :: This help message"
+    "--help, -h :: This help message",
+    "--version, -v :: The program versionn"
   ],
   "errors": {
     "REQUIRED_PARAM_LANG": "Failed to specify a language to translate to. (-l)",
