@@ -7,7 +7,7 @@ translate-json
 
 ## Usage
 
-    Usage: translate-json -l [language-code] -t [google|yandex] [input]
+    Usage: translate-json -l [language-code] [input] [output]
 
     --input, -i, [last parameter] :: The JSON document to translate. 
     --output, -o :: Destination to write the translated JSON document.
@@ -19,12 +19,11 @@ translate-json
     --apiKey, --key, -k :: The API key to be used with the translation service. (Not needed for google.)
     --help, -h :: This help message
 
-
 **Note**: Google is the default translator, and an API key is not needed for it.
 
 ## Examples
 
-> `translate-json -l fr ./labels-en.json > labels-fr.json`
+> `translate-json -l fr ./labels-en.json labels-fr.json`
 
 Do not translate all options and settings fields in the document.
 

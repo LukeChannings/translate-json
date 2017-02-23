@@ -1,6 +1,6 @@
 {
   "usage": [
-    "Usage: translate-json -l [language-code] -t [google|yandex] [input]\n",
+    "Usage: translate-json -l [language-code] [input] [output]\n",
     "--input, -i, [last parameter] :: The JSON document to translate. ",
     "--output, -o :: Destination to write the translated JSON document.",
     "--language, --lang, -l :: The language to convert the document to. e.g. ru, ar, fr, etc.",
