@@ -1,6 +1,6 @@
 {
   "name": "translate-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tool to translate strings in a JSON document.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/TheFuzzball/translate-json/issues"
   },
-  "homepage": "https://github.com/TheFuzzball/translate-json#readme",
+  "homepage": "https://github.com/TheFuzzball/translate-json",
   "devDependencies": {
     "jest": "^19.0.1",
     "standard": "^8.6.0"

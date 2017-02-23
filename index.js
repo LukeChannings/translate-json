@@ -18,37 +18,37 @@ try {
   console.error([error, '\n', ...cli.usage].join('\n'))
 }
 
-async function main ({dry, help, srcPath, destPath, api, apiKey, language, exclude, verbose}) {
-  if (help) {
+async function main (opts) {
+  if (opts.help) {
     console.log(cli.usage.join('\n'))
     return process.exit(0)
   }
 
-  const doc = require(path.resolve(process.cwd(), srcPath))
+  const doc = require(path.resolve(process.cwd(), opts.srcPath))
 
   const transform =
-    api && !dry
-      ? transformers[api]
+    opts.api && !opts.dry
+      ? transformers[opts.api]
       : transformers.dryRun
 
-  const tr = transform(apiKey, language)
+  const tr = transform(opts.apiKey, opts.language)
 
   const test = ({cursor, path}) =>
     typeof cursor === 'string' &&
-    (exclude
-      ? !(new RegExp(exclude, 'i')).test(path)
+    (opts.exclude
+      ? !(new RegExp(opts.exclude, 'i')).test(path)
       : true)
 
   const transforms = [
     {test, transform: tr}
   ]
 
-  const translatedDoc = await translateDeep({doc, transforms, verbose})
+  const translatedDoc = await translateDeep({doc, transforms, options: opts})
   const serializedDoc = JSON.stringify(translatedDoc, null, 2)
 
-  if (destPath) {
-    fs.writeFileSync(path.resolve(process.cwd(), destPath), serializedDoc)
-    return format(messages.SUCCESS, destPath)
+  if (opts.destPath) {
+    fs.writeFileSync(path.resolve(process.cwd(), opts.destPath), serializedDoc)
+    return format(messages.SUCCESS, opts.destPath)
   } else {
     return serializedDoc
   }
