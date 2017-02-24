@@ -17,7 +17,7 @@ translate-json
     translate-json [options] --lang=<language> (- | <input>) [<output>]
 
   Options:
-    -t, --translator              The translation service to use. google, or yandex. (Default is google)
+    -t, --translator              The translation service to use: google (default), yandex, bing.
     -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)
     -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)
     -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)
