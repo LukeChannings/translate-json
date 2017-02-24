@@ -4,7 +4,8 @@
   "description": "Tool to translate strings in a JSON document.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard"
   },
   "bin": {
     "translate-json": "./index.js"
@@ -30,6 +31,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.7",
+    "codacy-coverage": "^2.0.1",
     "google-translate-api": "^2.2.2",
     "html-entities": "^1.2.0",
     "minimist": "^1.2.0",
