@@ -8,7 +8,7 @@ const {format} = require('util')
 const cli = require('./lib/cli')
 const { translateDeep } = require('./lib/translate')
 const transformers = require('./lib/transformers')
-const {messages, errors} = require('./strings.json')
+const {messages, errors} = require('./lib/i18n')
 
 const argv = require('minimist')(process.argv.slice(2))
 

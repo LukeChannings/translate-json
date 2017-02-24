@@ -1,0 +1,37 @@
+{
+  "usage": [
+    "Användande:",
+    "translate-json [alternativ] -l <språk> (- | <input>) [<utgång>]",
+    "translate-json [alternativ] --lang = <språk> (- | <input>) [<utgång>]",
+    "",
+    "Alternativ:",
+    "-t, --translator Översättningstjänsten att använda: google (standard), Yandex, Bing.",
+    "-k, --api-nyckel Den API-nyckel som ska användas med översättningstjänsten. (Behövs ej för google.)",
+    "-p, --preserve-html-enheter Bevara HTML-entiteter i översatt text. (Falskt som standard.)",
+    "-c, --concurrency Antal fält att översätta samtidigt. (Standard är 30)",
+    "-e, --exclude Reguljärt uttryck för att utesluta viktiga vägar. t.ex. \"^ (NotThis | detta | not.this.either) $ '",
+    "-d, haklappar --dry-run faktiskt inte översätta några värden, prefix strängar med \"zz_\" för att markera dem.",
+    "-h, --help Visa denna skärm.",
+    "-v, --version Visa version.",
+    "--verbose Log mer.",
+    "",
+    "Exempel:",
+    "translate-json --lang = ru ./labels.json ./labels-ru.json",
+    "translate-json -d --lang = ru ./labels.json ./labels-ru.json",
+    "translate-json -c 60 --preserve-html-enheter --lang = ru ./labels.json ./labels-ru.json",
+    "cat labels.json | translate-json -l ru"
+  ],
+  "errors": {
+    "REQUIRED_PARAM_LANG": "Det gick inte att ange ett språk att översätta till. (-l)",
+    "REQUIRED_PARAM_INPUT": "Det gick inte att ange en indatafil.",
+    "REQUIRED_PARAM_API_KEY": "Du angav% s som en översättare, men angav inte en API-nyckel. (Använd -k)",
+    "INVALID_TRANSLATOR": "Översättningen API du angav är inte giltig. Använd google (standard), Yandex, eller Bing.",
+    "INVALID_STD_INPUT": "Fel: Det gick inte att tolka standardinmatningen."
+  },
+  "messages": {
+    "SUCCESS": "Framgångsrikt skrev översatta filen till% s.",
+    "TRANSLATING": "Hämtar översättningar för% s fält.",
+    "DUPLICATE_COUNT": "Optimering ... hittade% d duplicerade värden att översätta.",
+    "TRANSFORMER_CHOICE": "Använda \"% s\" transformator."
+  }
+}

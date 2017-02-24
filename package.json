@@ -36,6 +36,7 @@
     "html-entities": "^1.2.0",
     "minimist": "^1.2.0",
     "mstranslator": "^2.1.1",
+    "os-locale": "^2.0.0",
     "yandex-translate": "^2.1.1"
   },
   "jest": {

@@ -1,0 +1,37 @@
+{
+  "usage": [
+    "Usage:",
+    "translate-json [options] -l <langue> (- | <input>) [<sortie>]",
+    "translate-json [options] --lang = <langue> (- | <input>) [<sortie>]",
+    "",
+    "Options:",
+    "-t, --translator             Le service de traduction à utiliser: google (par défaut), yandex, bing.",
+    "-k, --api-key                Clé API à utiliser avec le service de traduction. (Ce n'est pas nécessaire pour google.)",
+    "-p, --preserve-html-entities Préserve les entités HTML dans le texte traduit. (Faux par défaut.)",
+    "-c, --concurrency            Nombre de champs à traduire simultanément. (La valeur par défaut est 30)",
+    "-e, --exclude                Expression régulière pour exclure les chemins de clés. par exemple. '^ (NotThis | this | not.this.either) $'",
+    "-d, --dry-run                Ne traduisez en fait aucune valeur, préfixe les chaînes avec 'zz_' pour les marquer.",
+    "-h, --help                   Affiche cet écran.",
+    "-v, --version                Afficher la version.",
+    "--verbose                    Plus d'informations.",
+    "",
+    "Exemples:",
+    "translate-json --lang = ru ./labels.json ./labels-ru.json",
+    "translate-json -d --lang = ru ./labels.json ./labels-ru.json",
+    "translate-json -c 60 --preserve-html-entities --lang = ru ./labels.json ./labels-ru.json",
+    "cat labels.json | translate-json -l ru"
+  ],
+  "errors": {
+    "REQUIRED_PARAM_LANG": "Échec de la spécification de la langue à traduire. (-l)",
+    "REQUIRED_PARAM_INPUT": "Impossible de spécifier un fichier d'entrée.",
+    "REQUIRED_PARAM_API_KEY": "Vous avez spécifié% s comme traducteur, mais vous n'avez pas spécifié de clé API. (Utiliser -k)",
+    "INVALID_TRANSLATOR": "L'API de traduction que vous avez spécifiée n'est pas valide. Veuillez utiliser google (par défaut), yandex ou bing.",
+    "INVALID_STD_INPUT": "Erreur: Impossible d'analyser stdin."
+  },
+  "messages": {
+    "SUCCESS": "Écrit avec succès le fichier traduit à% s.",
+    "TRANSLATING": "Récupération des traductions pour les champs% s.",
+    "DUPLICATE_COUNT": "Optimisation ... trouvé% d valeurs dupliquées à traduire.",
+    "TRANSFORMER_CHOICE": "Utilisation du transformateur '% s'."
+  }
+}
