@@ -1,6 +1,6 @@
 {
-  "name": "translate-json-cli",
-  "version": "0.1.0",
+  "name": "translate-json",
+  "version": "1.1.0",
   "description": "Tool to translate strings in a JSON document.",
   "main": "index.js",
   "scripts": {

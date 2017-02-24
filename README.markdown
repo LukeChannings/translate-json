@@ -10,7 +10,7 @@ Tool to translate strings in a JSON document.
 
 ## Install
 
-    npm i -g translate-json-cli
+    npm i -g translate-json
 
 ## Usage
 
