@@ -1,6 +1,9 @@
 translate-json
 =====
 
+[![Build Status](https://travis-ci.org/TheFuzzball/translate-json.svg?branch=master)](https://travis-ci.org/TheFuzzball/translate-json)
+
+
 ## Install
 
     npm i -g translate-json
