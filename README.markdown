@@ -1,4 +1,4 @@
-translate-json
+translate-json-cli
 =====
 
 [![Build Status](https://travis-ci.org/TheFuzzball/translate-json.svg?branch=master)](https://travis-ci.org/TheFuzzball/translate-json)
@@ -6,9 +6,11 @@ translate-json
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/26ac757ea8cd4e64952b6527b3180c91)](https://www.codacy.com/app/app42740794/translate-json?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheFuzzball/translate-json&amp;utm_campaign=Badge_Coverage)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
+Tool to translate strings in a JSON document.
+
 ## Install
 
-    npm i -g translate-json
+    npm i -g translate-json-cli
 
 ## Usage
 
