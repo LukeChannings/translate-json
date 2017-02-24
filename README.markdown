@@ -12,23 +12,23 @@ translate-json
 
 ## Usage
 
-  Usage:
-    translate-json [options] -l <language> (- | <input>) [<output>]
-    translate-json [options] --lang=<language> (- | <input>) [<output>]
+    Usage:
+      translate-json [options] -l <language> (- | <input>) [<output>]
+      translate-json [options] --lang=<language> (- | <input>) [<output>]
 
-  Options:
-    -t, --translator              The translation service to use: google (default), yandex, bing.
-    -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)
-    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)
-    -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)
-    -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'
-    -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.
-    -h, --help                    Show this screen.
-    -v, --version                 Show version.
-    --verbose                     Log more.
+    Options:
+      -t, --translator              The translation service to use: google (default), yandex, bing.
+      -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)
+      -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)
+      -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)
+      -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'
+      -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.
+      -h, --help                    Show this screen.
+      -v, --version                 Show version.
+      --verbose                     Log more.
 
-  Examples:
-    translate-json --lang=ru ./labels.json ./labels-ru.json
-    translate-json -d --lang=ru ./labels.json ./labels-ru.json
-    translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json
-    cat labels.json | translate-json -l ru
+    Examples:
+      translate-json --lang=ru ./labels.json ./labels-ru.json
+      translate-json -d --lang=ru ./labels.json ./labels-ru.json
+      translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json
+      cat labels.json | translate-json -l ru
