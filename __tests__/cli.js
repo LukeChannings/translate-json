@@ -23,11 +23,11 @@ describe('command line interface', () => {
   })
 
   describe('api arguments', () => {
-    it('defaults', () => {
+    it('defaults to google', () => {
       const m = minimist('-l foo input'.split(' '))
       const {api, apiKey} = getOptions(m)
       expect(api).toEqual('google')
-      expect(apiKey).toEqual(undefined)
+      expect(apiKey).toBeUndefined()
     })
     it('--translator yandex --apiKey abc123', () => {
       const m = minimist('-l foo input --translator yandex --apiKey abc123'.split(' '))
