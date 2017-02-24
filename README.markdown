@@ -12,26 +12,23 @@ translate-json
 
 ## Usage
 
-    Usage: translate-json -l [language-code] [input] [output]
+  Usage:
+    translate-json [options] -l <language> (- | <input>) [<output>]
+    translate-json [options] --lang=<language> (- | <input>) [<output>]
 
-    --input, -i, [last parameter] :: The JSON document to translate. 
-    --output, -o :: Destination to write the translated JSON document.
-    --language, --lang, -l :: The language to convert the document to. e.g. ru, ar, fr, etc.
-    --concurrency, -c :: Number of fields to translate simultaneously. (Default is 30)
-    --exclude, --e :: Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'
-    --dryRun, --dry, -d :: Do not actually translate any values, prefix strings with 'zz_' to mark them.
-    --translator, -t :: The translation service to use. google, or yandex. (Default is google)
-    --apiKey, --key, -k :: The API key to be used with the translation service. (Not needed for google.)
-    --preserveHtmlEntities, --preserve, -p :: Preserve HTML entities in translated text. (Off by default.)
-    --help, -h :: This help message
-    --version, -v :: The program versionn
+  Options:
+    -t, --translator              The translation service to use. google, or yandex. (Default is google)
+    -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)
+    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)
+    -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)
+    -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'
+    -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.
+    -h, --help                    Show this screen.
+    -v, --version                 Show version.
+    --verbose                     Log more.
 
-**Note**: Google is the default translator, and an API key is not needed for it.
-
-## Examples
-
-> `translate-json -l fr ./labels-en.json labels-fr.json`
-
-Do not translate all options and settings fields in the document.
-
-> `translate-json --verbose -l nl --exclude '(^(options|settings)\..+$)' ./src.json ./homepage-nl.json`
+  Examples:
+    translate-json --lang=ru ./labels.json ./labels-ru.json
+    translate-json -d --lang=ru ./labels.json ./labels-ru.json
+    translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json
+    cat labels.json | translate-json -l ru

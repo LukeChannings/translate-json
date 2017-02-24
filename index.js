@@ -8,12 +8,14 @@ const {format} = require('util')
 const cli = require('./lib/cli')
 const { translateDeep } = require('./lib/translate')
 const transformers = require('./lib/transformers')
-const {messages} = require('./strings.json')
+const {messages, errors} = require('./strings.json')
 
 const argv = require('minimist')(process.argv.slice(2))
 
 try {
-  main(cli.getOptions(argv)).then(console.log)
+  main(cli.getOptions(argv))
+    .then(console.log)
+    .catch(console.error)
 } catch (error) {
   console.error([error, os.EOL, ...cli.usage].join(os.EOL))
 }
@@ -22,7 +24,7 @@ async function main (opts) {
   if (opts.version) return require('./package.json').version
   if (opts.help) return cli.usage.join(os.EOL)
 
-  const doc = require(path.resolve(process.cwd(), opts.srcPath))
+  const doc = await getInput(opts.srcPath)
 
   const transform =
     opts.api && !opts.dry
@@ -46,5 +48,32 @@ async function main (opts) {
     return format(messages.SUCCESS, opts.destPath)
   } else {
     return serializedDoc
+  }
+}
+
+function getInput (srcPath) {
+  if (srcPath) {
+    const doc = require(path.resolve(process.cwd(), srcPath))
+    return Promise.resolve(doc)
+  } else {
+    return new Promise((resolve, reject) => {
+      let doc = ''
+
+      process.stdin.setEncoding('utf8')
+
+      process.stdin.on('readable', () => {
+        const chunk = process.stdin.read()
+        if (chunk !== null) doc += chunk
+      })
+
+      process.stdin.on('end', () => {
+        try {
+          const jsonDoc = JSON.parse(doc)
+          return resolve(jsonDoc)
+        } catch (error) {
+          return reject(errors.INVALID_STD_INPUT)
+        }
+      })
+    })
   }
 }
