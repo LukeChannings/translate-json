@@ -29,14 +29,14 @@ describe('command line interface', () => {
       expect(api).toEqual('google')
       expect(apiKey).toBeUndefined()
     })
-    it('--translator yandex --apiKey abc123', () => {
-      const m = minimist('-l foo input --translator yandex --apiKey abc123'.split(' '))
+    it('--translator yandex --api-key abc123', () => {
+      const m = minimist('-l foo input --translator yandex --api-key abc123'.split(' '))
       const {api, apiKey} = getOptions(m)
       expect(api).toEqual('yandex')
       expect(apiKey).toEqual('abc123')
     })
-    it('--t yandex --key def456', () => {
-      const m = minimist('-l foo input --t yandex --key def456'.split(' '))
+    it('--t yandex -k def456', () => {
+      const m = minimist('-l foo input --t yandex -k def456'.split(' '))
       const {api, apiKey} = getOptions(m)
       expect(api).toEqual('yandex')
       expect(apiKey).toEqual('def456')

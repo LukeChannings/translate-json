@@ -31,6 +31,8 @@ async function main (opts) {
       ? transformers[opts.api]
       : transformers.dryRun
 
+  if (opts.verbose) console.info(messages.TRANSFORMER_CHOICE, opts.api)
+
   const tr = transform(opts.apiKey, opts.language, opts.preserveHtmlEntities)
 
   const test = ({cursor, path}) =>

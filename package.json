@@ -35,6 +35,7 @@
     "google-translate-api": "^2.2.2",
     "html-entities": "^1.2.0",
     "minimist": "^1.2.0",
+    "mstranslator": "^2.1.1",
     "yandex-translate": "^2.1.1"
   },
   "jest": {

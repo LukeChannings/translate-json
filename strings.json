@@ -5,7 +5,7 @@
     "    translate-json [options] --lang=<language> (- | <input>) [<output>]",
     "",
     "  Options:",
-    "    -t, --translator              The translation service to use. google, or yandex. (Default is google)",
+    "    -t, --translator              The translation service to use: google (default), yandex, bing.",
     "    -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)",
     "    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)",
     "    -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)",
@@ -24,13 +24,14 @@
   "errors": {
     "REQUIRED_PARAM_LANG": "Failed to specify a language to translate to. (-l)",
     "REQUIRED_PARAM_INPUT": "Failed to specify an input file.",
-    "REQUIRED_PARAM_API_KEY_WITH_YANDEX": "You specified Yandex as a translator, but did not specify an API key.",
-    "INVALID_TRANSLATOR": "The translation API you specified is not valid. Please use 'google' (default), or 'yandex'.",
+    "REQUIRED_PARAM_API_KEY": "You specified %s as a translator, but did not specify an API key. (Use -k)",
+    "INVALID_TRANSLATOR": "The translation API you specified is not valid. Please use google (default), yandex, or bing.",
     "INVALID_STD_INPUT": "Error: Could not parse stdin."
   },
   "messages": {
     "SUCCESS": "Successfully wrote translated file to %s.",
     "TRANSLATING": "Fetching translations for %s fields.",
-    "DUPLICATE_COUNT": "Optimising... found %d duplicate values to translate."
+    "DUPLICATE_COUNT": "Optimising... found %d duplicate values to translate.",
+    "TRANSFORMER_CHOICE": "Using '%s' transformer."
   }
 }
