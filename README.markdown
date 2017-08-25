@@ -11,6 +11,8 @@ Tool to translate strings in a JSON document.
 ## Install
 
     npm i -g translate-json
+    
+    Please note that this package uses --harmony-async-await flag. Linux kernel doesn't support passing this flag to node via env, so you might want to change first line of index.js to use node > 7 or remove env and provide direct path to node. 
 
 ## Usage
 
