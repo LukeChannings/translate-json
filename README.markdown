@@ -1,4 +1,4 @@
-translate-json-cli
+translate-json
 =====
 
 [![npm version](https://badge.fury.io/js/translate-json.svg)](https://badge.fury.io/js/translate-json)[![Build Status](https://travis-ci.org/LukeChannings/translate-json-cli.svg?branch=master)](https://travis-ci.org/LukeChannings/translate-json-cli)
