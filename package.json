@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "standard"
+    "lint": "prettier --write \"**/*.{js{,on},css}\"",
+    "precommit": "npm run lint",
+    "prepush": "npm test"
   },
   "bin": {
     "translate-json": "./index.js"
   },
   "engines": {
-    "node": ">=7.0.0"
+    "node": ">=8.4.0"
   },
   "preferGlobal": true,
   "repository": {
@@ -26,8 +28,10 @@
   },
   "homepage": "https://github.com/TheFuzzball/translate-json",
   "devDependencies": {
+    "husky": "^0.14.3",
     "jest": "^19.0.1",
-    "standard": "^8.6.0"
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4"
   },
   "dependencies": {
     "bluebird": "^3.4.7",

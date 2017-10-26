@@ -22,16 +22,20 @@
     "cat labels.json | translate-json -l ru"
   ],
   "errors": {
-    "REQUIRED_PARAM_LANG": "Det gick inte att ange ett språk att översätta till. (-l)",
+    "REQUIRED_PARAM_LANG":
+      "Det gick inte att ange ett språk att översätta till. (-l)",
     "REQUIRED_PARAM_INPUT": "Det gick inte att ange en indatafil.",
-    "REQUIRED_PARAM_API_KEY": "Du angav% s som en översättare, men angav inte en API-nyckel. (Använd -k)",
-    "INVALID_TRANSLATOR": "Översättningen API du angav är inte giltig. Använd google (standard), Yandex, eller Bing.",
+    "REQUIRED_PARAM_API_KEY":
+      "Du angav% s som en översättare, men angav inte en API-nyckel. (Använd -k)",
+    "INVALID_TRANSLATOR":
+      "Översättningen API du angav är inte giltig. Använd google (standard), Yandex, eller Bing.",
     "INVALID_STD_INPUT": "Fel: Det gick inte att tolka standardinmatningen."
   },
   "messages": {
     "SUCCESS": "Framgångsrikt skrev översatta filen till% s.",
     "TRANSLATING": "Hämtar översättningar för% s fält.",
-    "DUPLICATE_COUNT": "Optimering ... hittade% d duplicerade värden att översätta.",
+    "DUPLICATE_COUNT":
+      "Optimering ... hittade% d duplicerade värden att översätta.",
     "TRANSFORMER_CHOICE": "Använda \"% s\" transformator."
   }
 }

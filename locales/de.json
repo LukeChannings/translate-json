@@ -22,16 +22,20 @@
     "Katze labels.json | Übersetzen-json -l ru"
   ],
   "errors": {
-    "REQUIRED_PARAM_LANG": "Fehler beim Angeben einer Sprache zum Übersetzen. (-l)",
+    "REQUIRED_PARAM_LANG":
+      "Fehler beim Angeben einer Sprache zum Übersetzen. (-l)",
     "REQUIRED_PARAM_INPUT": "Fehler beim Angeben einer Eingabedatei.",
-    "REQUIRED_PARAM_API_KEY": "Sie haben% s als Übersetzer angegeben, aber kein API-Schlüssel angegeben. (Verwendung -k)",
-    "INVALID_TRANSLATOR": "Die von Ihnen angegebene Übersetzungs-API ist nicht gültig. Bitte verwenden Sie Google (Standard), Yandex oder Bing.",
+    "REQUIRED_PARAM_API_KEY":
+      "Sie haben% s als Übersetzer angegeben, aber kein API-Schlüssel angegeben. (Verwendung -k)",
+    "INVALID_TRANSLATOR":
+      "Die von Ihnen angegebene Übersetzungs-API ist nicht gültig. Bitte verwenden Sie Google (Standard), Yandex oder Bing.",
     "INVALID_STD_INPUT": "Fehler: Kann nicht stdin analysieren."
   },
   "messages": {
     "SUCCESS": "Die übersetzte Datei wurde erfolgreich in% s geschrieben.",
     "TRANSLATING": "Abrufen von Übersetzungen für% s Felder.",
-    "DUPLICATE_COUNT": "Optimierung ... gefunden% d doppelte Werte zu übersetzen.",
+    "DUPLICATE_COUNT":
+      "Optimierung ... gefunden% d doppelte Werte zu übersetzen.",
     "TRANSFORMER_CHOICE": "Mit '% s' Transformator verwenden."
   }
 }
