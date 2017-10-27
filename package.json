@@ -7,7 +7,8 @@
     "test": "jest",
     "lint": "prettier --write \"**/*.{js{,on},css}\"",
     "precommit": "npm run lint",
-    "prepush": "npm test"
+    "prepush": "npm test",
+    "submit-codacy-coverage": "cat ./coverage/lcov.info | codacy-coverage"
   },
   "bin": "translate-json",
   "engines": {
@@ -48,11 +49,15 @@
       "/node_modules/"
     ],
     "coverageDirectory": "./coverage/",
+    "coverageReporters": [
+      "lcov"
+    ],
     "collectCoverage": true,
     "collectCoverageFrom": [
       "index.js",
       "lib/**/*.js",
-      "!lib/**/*.spec.js"
+      "!lib/**/*.spec.js",
+      "!locales/**/*.json"
     ],
     "transform": {
       "^.+\\.js$": "async-to-gen"
