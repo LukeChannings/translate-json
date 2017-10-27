@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+try {
+  eval("((async () => await Promise.resolve(true))())")
+} catch (err) {
+  require("async-to-gen/register")
+}
+
+require("./index.js")

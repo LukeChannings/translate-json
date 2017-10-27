@@ -2,18 +2,16 @@
   "name": "translate-json",
   "version": "1.2.0",
   "description": "Tool to translate strings in a JSON document.",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "jest",
     "lint": "prettier --write \"**/*.{js{,on},css}\"",
     "precommit": "npm run lint",
     "prepush": "npm test"
   },
-  "bin": {
-    "translate-json": "./index.js"
-  },
+  "bin": "translate-json",
   "engines": {
-    "node": ">=8.4.0"
+    "node": ">=6.0.0"
   },
   "preferGlobal": true,
   "repository": {
@@ -31,9 +29,11 @@
     "husky": "^0.14.3",
     "jest": "^19.0.1",
     "lint-staged": "^4.3.0",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "regenerator-runtime": "^0.11.0"
   },
   "dependencies": {
+    "async-to-gen": "^1.3.3",
     "bluebird": "^3.4.7",
     "codacy-coverage": "^2.0.1",
     "google-translate-api": "^2.2.2",
@@ -44,11 +44,17 @@
     "yandex-translate": "^2.1.1"
   },
   "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "collectCoverageFrom": [
       "index.js",
       "lib/**/*.js"
-    ]
+    ],
+    "transform": {
+      "^.+\\.js$": "async-to-gen"
+    }
   }
 }
