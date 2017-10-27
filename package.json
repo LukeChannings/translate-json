@@ -51,7 +51,8 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "index.js",
-      "lib/**/*.js"
+      "lib/**/*.js",
+      "!lib/**/*.spec.js"
     ],
     "transform": {
       "^.+\\.js$": "async-to-gen"
