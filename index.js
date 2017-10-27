@@ -36,8 +36,17 @@ async function main(opts) {
     (opts.exclude ? !new RegExp(opts.exclude, "i").test(path) : true) &&
     (opts.include ? new RegExp(opts.include, "i").test(path) : true)
 
-  const transforms = [{ test, transform: tr }]
-  const translatedDoc = await translateDeep({ doc, transforms, options: opts })
+  const transforms = [
+    {
+      test,
+      transform: tr
+    }
+  ]
+  const translatedDoc = await translateDeep({
+    doc,
+    transforms,
+    options: opts
+  })
   const serializedDoc = JSON.stringify(translatedDoc, null, 2).replace(
     /\n/g,
     os.EOL
