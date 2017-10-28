@@ -29,7 +29,7 @@
   "devDependencies": {
     "coveralls": "^3.0.0",
     "husky": "^0.14.3",
-    "jest": "^19.0.1",
+    "jest": "^21.2.0",
     "lint-staged": "^4.3.0",
     "prettier": "^1.7.4",
     "regenerator-runtime": "^0.11.0"
@@ -41,8 +41,7 @@
     "html-entities": "^1.2.0",
     "minimist": "^1.2.0",
     "mstranslator": "^2.1.1",
-    "os-locale": "^2.0.0",
-    "yandex-translate": "^2.1.1"
+    "yandex.translate": "^1.0.0"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
