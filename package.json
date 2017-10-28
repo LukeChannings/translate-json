@@ -5,7 +5,8 @@
   "main": "./index.js",
   "scripts": {
     "test": "jest",
-    "lint": "prettier --print-width 80 --write --no-semi \"**/*.{js{,on},css}\"",
+    "lint":
+      "prettier --print-width 80 --write --no-semi \"**/*.{js{,on},css}\"",
     "precommit": "npm run lint",
     "prepush": "npm test",
     "submit-coverage": "cat ./coverage/lcov.info | coveralls"
@@ -45,9 +46,7 @@
   },
   "jest": {
     "coverageDirectory": "./coverage/",
-    "coverageReporters": [
-      "lcov"
-    ],
+    "coverageReporters": ["lcov"],
     "collectCoverage": true,
     "collectCoverageFrom": [
       "index.js",
