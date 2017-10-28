@@ -2,7 +2,7 @@
   "name": "translate-json",
   "version": "1.2.0",
   "description": "Tool to translate strings in a JSON document.",
-  "main": "./index.js",
+  "main": "./translate-json",
   "scripts": {
     "test": "jest",
     "lint": "prettier --print-width 80 --write --no-semi \"**/*.{js{,on},css}\"",
@@ -17,15 +17,15 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheFuzzball/translate-json.git"
+    "url": "git+https://github.com/LukeChannings/translate-json.git"
   },
   "author": "Luke Channings",
   "email": "luke@channings.me",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheFuzzball/translate-json/issues"
+    "url": "https://github.com/LukeChannings/translate-json/issues"
   },
-  "homepage": "https://github.com/TheFuzzball/translate-json",
+  "homepage": "https://github.com/LukeChannings/translate-json",
   "devDependencies": {
     "coveralls": "^3.0.0",
     "husky": "^0.14.3",

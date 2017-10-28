@@ -6,4 +6,4 @@ try {
   require("async-to-gen/register")
 }
 
-require("./index.js")
+require("./lib")
