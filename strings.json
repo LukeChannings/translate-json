@@ -19,15 +19,13 @@
     "    translate-json --lang=ru ./labels.json ./labels-ru.json",
     "    translate-json -d --lang=ru ./labels.json ./labels-ru.json",
     "    translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json",
-    "    cat labels.json | translate-json -l ru"
+    "    cat input.json | translate-json -l ru - > output.json"
   ],
   "errors": {
-    "REQUIRED_PARAM_LANG": "Failed to specify a language to translate to. (-l)",
+    "REQUIRED_PARAM_LANG": "Failed to specify a language to translate to. (--language)",
     "REQUIRED_PARAM_INPUT": "Failed to specify an input file.",
-    "REQUIRED_PARAM_API_KEY":
-      "You specified %s as a translator, but did not specify an API key. (Use -k)",
-    "INVALID_TRANSLATOR":
-      "The translation API you specified is not valid. Please use google (default), yandex, or bing.",
+    "REQUIRED_PARAM_API_KEY": "You specified %s as a translator, but did not specify an API key. (Use -k)",
+    "INVALID_TRANSLATOR": "The translation API you specified is not valid. Please use google (default), yandex, or bing.",
     "INVALID_STD_INPUT": "Error: Could not parse stdin."
   },
   "messages": {
