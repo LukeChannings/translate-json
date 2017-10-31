@@ -26,7 +26,9 @@
     "REQUIRED_PARAM_INPUT": "Failed to specify an input file.",
     "REQUIRED_PARAM_API_KEY": "You specified %s as a translator, but did not specify an API key. (Use -k)",
     "INVALID_TRANSLATOR": "The translation API you specified is not valid. Please use google (default), yandex, or bing.",
-    "INVALID_STD_INPUT": "Error: Could not parse stdin."
+    "INVALID_STD_INPUT": "Could not read stdin.",
+    "INVALID_INPUT": "%s is not a file",
+    "INVALID_JSON_DOC": "%s is not a JSON document"
   },
   "messages": {
     "SUCCESS": "Successfully wrote translated file to %s.",
