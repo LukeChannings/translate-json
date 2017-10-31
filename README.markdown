@@ -34,4 +34,4 @@ Tool to translate strings in a JSON document.
       translate-json --lang=ru ./labels.json ./labels-ru.json
       translate-json -d --lang=ru ./labels.json ./labels-ru.json
       translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json
-      cat labels.json | translate-json -l ru
+      cat input.json | translate-json -l ru - > output.json
