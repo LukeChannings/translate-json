@@ -1,6 +1,6 @@
 {
   "name": "translate-json",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Tool to translate strings in a JSON document.",
   "main": "./translate-json",
   "scripts": {
