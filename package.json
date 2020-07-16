@@ -30,9 +30,7 @@
   },
   "homepage": "https://github.com/LukeChannings/translate-json",
   "devDependencies": {
-    "coveralls": "^3.0.0",
     "eslint": "^7.4.0",
-    "husky": "^4.2.5",
     "jest": "^26.1.0",
     "prettier": "^2.0.5"
   },
@@ -44,18 +42,5 @@
     "minimist": "^1.2.0",
     "mstranslator": "^3.0.0",
     "yandex.translate": "^1.0.0"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "coverageReporters": [
-      "lcov"
-    ],
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "index.js",
-      "lib/**/*.js",
-      "!lib/**/*.spec.js",
-      "!locales/**/*.json"
-    ]
   }
 }
