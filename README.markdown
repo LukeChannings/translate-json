@@ -4,8 +4,7 @@ translate-json
 <div style="text-align: center">
 
 [![npm version](https://badge.fury.io/js/translate-json.svg)](https://www.npmjs.com/package/translate-json)
-[![Build Status](https://travis-ci.org/LukeChannings/translate-json.svg?branch=master)](https://travis-ci.org/LukeChannings/translate-json)
-[![Coverage Status](https://coveralls.io/repos/github/LukeChannings/translate-json/badge.svg?branch=master)](https://coveralls.io/github/LukeChannings/translate-json?branch=master)
+![Tests](https://github.com/LukeChannings/translate-json/workflows/Tests/badge.svg)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
