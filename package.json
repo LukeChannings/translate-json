@@ -1,18 +1,21 @@
 {
   "name": "translate-json",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "Tool to translate strings in a JSON document.",
   "main": "./translate-json",
   "scripts": {
     "test": "jest",
-    "lint": "prettier --print-width 80 --write --no-semi \"**/*.{js{,on},css}\"",
+    "format": "prettier --print-width 80 --write --no-semi \"**/*.{js{,on},css}\"",
+    "lint": "eslint lib",
     "precommit": "npm run lint",
     "prepush": "npm test",
     "submit-coverage": "cat ./coverage/lcov.info | coveralls"
   },
-  "bin": "translate-json",
+  "bin": {
+    "translate-json": "lib/index.js"
+  },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=12.0.0"
   },
   "preferGlobal": true,
   "repository": {
@@ -28,21 +31,18 @@
   "homepage": "https://github.com/LukeChannings/translate-json",
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "husky": "^0.14.3",
-    "jest": "^21.2.0",
-    "lint-staged": "^4.3.0",
-    "prettier": "^1.7.4",
-    "regenerator-runtime": "^0.11.0"
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
-    "async-to-gen": "^1.3.3",
-    "bluebird": "^3.4.7",
+    "@k3rn31p4nic/google-translate-api": "^1.1.1",
     "colors": "^1.1.2",
-    "google-translate-api": "^2.2.2",
     "html-entities": "^1.2.0",
-    "lodash": "^4.17.5",
+    "lodash.set": "^4.3.2",
     "minimist": "^1.2.0",
-    "mstranslator": "^2.1.1",
+    "mstranslator": "^3.0.0",
     "yandex.translate": "^1.0.0"
   },
   "jest": {
@@ -56,9 +56,6 @@
       "lib/**/*.js",
       "!lib/**/*.spec.js",
       "!locales/**/*.json"
-    ],
-    "transform": {
-      "^.+\\.js$": "async-to-gen"
-    }
+    ]
   }
 }

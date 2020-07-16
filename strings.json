@@ -1,14 +1,13 @@
 {
   "usage": [
     "  Usage:",
-    "    translate-json [options] -l <language> (- | <input>) [<output>]",
-    "    translate-json [options] --lang=<language> (- | <input>) [<output>]",
+    "    translate-json [options] -l <language> -k <apiKey> (- | <input>) [<output>]",
+    "    translate-json [options] --lang=<language> -k <apiKey> (- | <input>) [<output>]",
     "",
     "  Options:",
     "    -t, --translator              The translation service to use: google (default), yandex, bing.",
-    "    -k, --api-key                 The API key to be used with the translation service. (Not needed for google.)",
+    "    -k, --api-key                 The API key to be used with the translation service.",
     "    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)",
-    "    -c, --concurrency             Number of fields to translate simultaneously. (Default is 30)",
     "    -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'",
     "    -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.",
     "    -h, --help                    Show this screen.",
