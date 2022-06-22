@@ -35,7 +35,7 @@
     "prettier": "^2.0.5"
   },
   "dependencies": {
-    "@k3rn31p4nic/google-translate-api": "^1.1.1",
+    "@iamtraction/google-translate": "^1.1.2",
     "colors": "^1.1.2",
     "html-entities": "^1.2.0",
     "lodash.set": "^4.3.2",
